@@ -365,25 +365,37 @@ def format_ranking(limit: int = 20) -> str:
         correct = int(rec.get("total_correct", 0))
         total_tests = int(rec.get("total_tests", 0))
         percent = round(correct / total_q * 100, 1) if total_q else 0
+
+        name = rec.get("name") or f"User {uid}"
+        username = rec.get("username") or ""
+        display = name
+        if username:
+            display += f" (@{username})"
+
         rows.append({
             "user_id": uid,
+            "display": display,
             "total_tests": total_tests,
             "total_questions": total_q,
             "correct": correct,
             "percent": percent
         })
 
+    # Avval foiz, keyin to'g'ri javob, keyin test soni bo'yicha tartiblaydi
     rows.sort(key=lambda x: (x["percent"], x["correct"], x["total_tests"]), reverse=True)
 
     medals = ["🥇", "🥈", "🥉"]
-    text = "🏆 Userlar reytingi\\n\\n"
+    text = "🏆 Userlar reytingi\n\n"
     for i, row in enumerate(rows[:limit], start=1):
         medal = medals[i-1] if i <= 3 else f"{i}."
         text += (
-            f"{medal} User ID: {row['user_id']}\\n"
-            f"   📈 {row['percent']}% | ✅ {row['correct']}/{row['total_questions']} | 📝 Test: {row['total_tests']}\\n"
+            f"{medal} {row['display']}\n"
+            f"   📈 Foiz: {row['percent']}%\n"
+            f"   ✅ To'g'ri: {row['correct']}/{row['total_questions']}\n"
+            f"   📝 Testlar: {row['total_tests']}\n"
+            f"   🆔 ID: {row['user_id']}\n\n"
         )
-    return text
+    return text.strip()
 
 
 def format_global_stats() -> str:
@@ -403,24 +415,24 @@ def format_global_stats() -> str:
     percent = round(total_correct / total_answered * 100, 1) if total_answered else 0
 
     text = (
-        "👥 Umumiy statistika\\n\\n"
-        f"👤 Jami userlar: {total_users}\\n"
-        f"🔥 Test ishlagan userlar: {active_users}\\n"
-        f"📝 Jami testlar: {total_tests}\\n"
-        f"📌 Jami javob berilgan savollar: {total_answered}\\n"
-        f"✅ Jami to'g'ri javoblar: {total_correct}\\n"
-        f"📈 Umumiy foiz: {percent}%\\n\\n"
-        f"📚 Fanlar soni: {len(subjects)}\\n"
-        f"🧾 Bazadagi savollar: {len(questions)}\\n\\n"
-        "📚 Fanlar bo'yicha savollar:\\n"
+        "👥 Umumiy statistika\n\n"
+        f"👤 Jami userlar: {total_users}\n"
+        f"🔥 Test ishlagan userlar: {active_users}\n"
+        f"📝 Jami testlar: {total_tests}\n"
+        f"📌 Jami javob berilgan savollar: {total_answered}\n"
+        f"✅ Jami to'g'ri javoblar: {total_correct}\n"
+        f"📈 Umumiy foiz: {percent}%\n\n"
+        f"📚 Fanlar soni: {len(subjects)}\n"
+        f"🧾 Bazadagi savollar: {len(questions)}\n\n"
+        "📚 Fanlar bo'yicha savollar:\n"
     )
+
     if subjects:
         for sub, count in sorted(subjects.items()):
-            text += f"• {sub}: {count} ta\\n"
+            text += f"• {sub}: {count} ta\n"
     else:
-        text += "Fanlar yo'q.\\n"
-    return text
-
+        text += "Fanlar yo'q.\n"
+    return text.strip()
 
 def settings_menu(subject: str) -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=[
@@ -538,6 +550,7 @@ async def auto_next_after_timeout(user_id: int, poll_id: str, delay: int) -> Non
 
 @dp.message(Command("start"))
 async def cmd_start(message: Message):
+    remember_user(message.from_user)
     await message.answer("Assalomu alaykum!\n\nBoshlash uchun fan tanlang.", reply_markup=main_menu())
 
 
@@ -600,9 +613,9 @@ async def cb_admin_delete_select(call: CallbackQuery):
     subject = call.data.split(":", 2)[2]
     count = sum(1 for q in load_questions() if q.get("subject", "Sun'iy intellekt") == subject)
     await call.message.edit_text(
-        f"⚠️ Diqqat!\\n\\n"
-        f"Fan: {subject}\\n"
-        f"Savollar soni: {count} ta\\n\\n"
+        f"⚠️ Diqqat!\n\n"
+        f"Fan: {subject}\n"
+        f"Savollar soni: {count} ta\n\n"
         f"Haqiqatan ham shu fanni bazadan butunlay o'chirasizmi?",
         reply_markup=confirm_delete_subject_menu(subject)
     )
@@ -617,8 +630,8 @@ async def cb_admin_delete_confirm(call: CallbackQuery):
     subject = call.data.split(":", 2)[2]
     deleted = delete_subject_from_db(subject)
     await call.message.edit_text(
-        f"✅ Fan o'chirildi.\\n\\n"
-        f"Fan: {subject}\\n"
+        f"✅ Fan o'chirildi.\n\n"
+        f"Fan: {subject}\n"
         f"O'chirilgan savollar: {deleted} ta",
         reply_markup=admin_menu()
     )
@@ -642,7 +655,7 @@ async def cb_admin_rename_select(call: CallbackQuery):
     subject = call.data.split(":", 2)[2]
     ADMIN_UPLOAD[call.from_user.id] = {"step": "rename_subject", "old_subject": subject}
     await call.message.answer(
-        f"Eski fan nomi: {subject}\\n\\n"
+        f"Eski fan nomi: {subject}\n\n"
         "Yangi fan nomini yozing:"
     )
     await call.answer()
@@ -861,6 +874,7 @@ async def cb_wrongs(call: CallbackQuery):
 
 @dp.poll_answer()
 async def poll_answer_handler(answer: PollAnswer):
+    remember_user(answer.user)
     data = POLL_MAP.get(answer.poll_id)
     if not data:
         return
