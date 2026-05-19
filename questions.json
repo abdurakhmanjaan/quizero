@@ -1,0 +1,5750 @@
+[
+  {
+    "id": 1,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellektning asosiy vazifasi nima?",
+    "options": [
+      "faqat ma'lumotlarni saqlash",
+      "faqat chizish vazifalarini bajarish",
+      "aqlli qarorlar qabul qilish;",
+      "kompyuter ekranini boshqarish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 2,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellekt usullarini rivojlanishining uchinchi pog'onasi ..................................................................bilan bog'liq.",
+    "options": [
+      "idrok etuvchi, dinamik muhitda murakkab rejalarning amalga oshirilishi, bilimlarni tavsiflovchi, inson bilan tabiiy tilda muloqot qiluvchi robotlarni ishlab chiqarilishi;",
+      "idrok etuvchi, dinamik muhitda murakkab rejalarning amalga oshirilishi;",
+      "mehanik integrallashgan robotlarning yaratilishi;",
+      "bilimlarni tavsiflovchi, inson bilan tabiiy tilda muloqot qiluvchi robotlarni ishlab chiqarilishi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 3,
+    "subject": "Sun'iy intellekt",
+    "question": "MYCIN -qanday vazifani bajargan?",
+    "options": [
+      "ichak kasalliklariga tashxis qo`yuvchi ekspert tizim;",
+      "murakkab rejalarni amalga oshiruvchi ekspert tizim;",
+      "iqtisodiy masalalarni boshqaruvchi ekspert tizim;",
+      "bank operatsiyalariga mo'ljallangan ekspert tizim."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 4,
+    "subject": "Sun'iy intellekt",
+    "question": "PROSPECTOR -qanday vazifani bajargan?",
+    "options": [
+      "foydali qazilmalarni topishda maslahat beruvchi ekspert tizim;",
+      "loyihalashni amalga oshiruvchi ekspert tizim;",
+      "biznes masalalarni boshqaruvchi ekspert tizim;",
+      "bank operatsiyalariga mo'ljallangan ekspert tizim."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 5,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellekt -bu .......................................tushunchalarini anglatadi.",
+    "options": [
+      "inson intellektining alohida funksiyalarini bajarishni ta'minlovchi avtomatik tizim. Qaror qabul qilish, muammoni hal qilish, o'qitish, o'rgatish kabi insoniy fikrlash bilan bog'liq bo'lgan faoliyat turlari ;",
+      "inson intellektining alohida funksiyalarini bajarishni ta'minlovchi avtomatik tizim;",
+      "qaror qabul qilish, muammoni hal qilish, o'qitish, o'rgatish kabi insoniy fikrlash bilan bog'liq bo'lgan faoliyat turlari;",
+      "kompyuter sxemasi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 6,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellekt tizimi (SIT) -bu .................................. hisoblanadi.",
+    "options": [
+      "kompyuterli va kreativ tizim, murakkab strukturali moslashish, maqsadga erishish uchun muhit o'zgarishiga moslashish va soha o'zgarishidagi ichki holat;",
+      "kompyuterli va nokreativ tizim, oddiy strukturali moslashish, maqsadga erishish uchun muhit o'zgarishiga moslashmaslik va soha o'zgarishidagi moslashuvchan holat;",
+      "kompyutersiz va kreativ tizim, oddiy strukturasiz moslashmaslik, maqsadga erishish uchun muhit o'zgarishiga moslashish va soha o'zgarishidagi bog;liqlik holat;",
+      "kompyuterli va nokreativ tizim, uzluksiz strukturasiz moslashish, maqsadga erishish uchun muhit o'zgarishiga moslashmaslik va soha o'zgarmasligidagi moslashuvchan holat."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 7,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellekt sohasidagi tadqiqotlarning rivojlanishiga predikatlar mantiqi teoremalarini isbotlashga asoslangan Robisonning rezolyusiya usulining maqsadi..................................... ishlab chiqishdan iborat bo'lgan.",
+    "options": [
+      "inson echadigan masalalarni huddi insonga o'xshab echadigan dasturlarni;",
+      "inson echmaydigan masalalarni huddi kompyuterga o'xshab echadigan dasturlarni;",
+      "inson echadigan masalalarni huddi insonga o'xshab echmaydigan dasturlarni;",
+      "insonsiz echiladigan masalalarni huddi insonga o'xshab echadigan dasturlarni."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 8,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellekt usullarini rivojlanishining birinchi pog'onasida tadqiqot maydonida masalalar sifatida......................................... qaralgan.",
+    "options": [
+      "turli xil o'yinlar, boshqotirmalar, matematik masalalar;",
+      "inson echmaydigan masalalar;",
+      "insonga o'xshab echmaydigan dasturlar;",
+      "sezuvchi robotlar yaratish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 9,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellekt usullarini rivojlanishining ikkinchi pog'onasi ......................................... bilan bog'liq.",
+    "options": [
+      "integrallashgan robotlarning yaratilishi;",
+      "sezuvchi robotlarning yaratishlishi;",
+      "exspert tizimlarning yaratishlishi;",
+      "gapiruvchi robotlarning yaratilishi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 10,
+    "subject": "Sun'iy intellekt",
+    "question": "Prolog, FRL, KRL, GUS - nima?",
+    "options": [
+      "mantiqiy dasturlash tillari;",
+      "loyihalashni amalga oshiruvchi ekspert tizimlar;",
+      "biznes masalalarni boshqaruvchi muloqat tizimlar;",
+      "bank operatsiyalariga mo'ljallangan dasturlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 11,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellekt tamoyillariga asoslangan 5-avlod mashinalarining loyihasi dastlab qachon va qaerda ishlab chiqilgan?",
+    "options": [
+      "1981 yilda Yaponiyada;",
+      "1980 yilda AQSh da;",
+      "1981 yilda Kanadada;",
+      "1982 yilda Fransiyada."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 12,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimlar yo'nalishdagi masalalarga ................... kabilar kiradi.",
+    "options": [
+      "inson-ekspertga qiyin tyulgan tadqiqotlar, bilimlarga va masalani echish uchun xulosalash proseduralariga asoslangan dasturlar yaratish;",
+      "inson-ekspertga qiyin tyulgan tadqiqotlar;",
+      "operatorga va foydalanuvchiga qiyin tyulgan tadqiqotlar;",
+      "bilimlarga va masalani echish uchun xulosalash proseduralariga asoslangan dasturlar yaratish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 13,
+    "subject": "Sun'iy intellekt",
+    "question": "Integrallashgan va gibrid printsiplariga asoslan tizimlarning asosi - ..............................................kabilar hisoblanadi.",
+    "options": [
+      "bilimlar bazasi, bilimlarni avtomatik olish, deduktiv, abduktiv va noravshan mantiqiy xulosalash, muammoli-yo'naltirilgan muloqot tili, statik va dinamik axborotlarni qayta ishlash;",
+      "bilimlar bazasi, bilimlarni avtomatik olish, deduktiv, abduktiv va noravshan mantiqiy xulosalash;",
+      "muammoli-yo'naltirilgan muloqot tili, statik va dinamik axborotlarni qayta ishlash;",
+      "predmet sohada bilimlar va ma'lumotlar bazasiga ega bo'lgan alohida tizimlarni va loyihalarni ishlab chiqish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 14,
+    "subject": "Sun'iy intellekt",
+    "question": "Integratsiyalashuv jarayonlar .................................kabilar bilan bog'liq.",
+    "options": [
+      "sun'iy intellektning turli modellarini, noravshan expert tizim va neyron tarmoqlarni o'zida birlashtiruvchi integrallashgan va gibrid tizimlarini yaratish;",
+      "predmet sohada bilimlar va ma'lumotlar bazasiga ega bo'lgan alohida tizimlarni va loyihalarni ishlab chiqish;",
+      "sun'iy intellektning turli modellarini;",
+      "noravshan expert tizim va neyron tarmoqlarni o'zida birlashtiruvchi integrallashgan va gibrid tizimlarini yaratish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 15,
+    "subject": "Sun'iy intellekt",
+    "question": "Detsentrallashgan jarayonlar ................................ nuqtai nazaridan qaraladi.",
+    "options": [
+      "bir-biri bilan o'zaro bog'langan ko'p sonli intellektual agentlarning jamoaviy hatti-xarakati;",
+      "bir-biri bilan o'zaro bog'lanmagan ko'p sonli intellektual agentlarning jamoaviy hatti-xarakati;",
+      "bir-biri bilan o'zaro bog'langan tugunlar to'plami;",
+      "bir-biri bilan o'zaro bog'lanmagan semantikc tarmoq."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 16,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellektni modellashtirishning birinchi yondashuvida qaysi tadqiqot ob'ektidan foydalaniladi?",
+    "options": [
+      "inson miyasining tuzilishi va mexanizmlari;",
+      "sun'iy intellekt;",
+      "inson-mashina tizimi;",
+      "barcha javoblar to'g'ri."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 17,
+    "subject": "Sun'iy intellekt",
+    "question": "Kirish va chiqish signallariga qarab neyrotarmoqlarni qanday tiplarga ajratish mumkin.",
+    "options": [
+      "Uzlukli va uzluksiz;",
+      "Uzlukli va tabiiy;",
+      "Binar va parallel;",
+      "Ketma-ket va parallel."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 18,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlarga asoslangan tizimlarning asosiy yo'nalshlari - bu..............",
+    "options": [
+      "turli manbalardan va ekspertlardan bilimlarni olish, bilimlarni namoyish etish, bilimlarni boshqarish, bilimlar asosida tushuntirish;",
+      "turli manbalardan va ekspertlardan bilimlarni olish, bilimlarni namoyish etish, mashinali tarjima va musiqiy asarlarni tuzish;",
+      "bilimlarni namoyish etish, bilimlarni boshqarish, bilimlar asosida tushuntirish musiqiy asarlarni tahlil qilish va avtomatik raf?rentlash;",
+      "turli manbalardan va ekspertlardan bilimlarni olish, matnlarni tuzish va kuylash uslubini imitatsiya qilish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 19,
+    "subject": "Sun'iy intellekt",
+    "question": "Neyronli qayta ishlash tizimlari-bu ...................",
+    "options": [
+      "neyrokompyuterlar va neyroemulyatorlar;",
+      "neyronlar va neyroemulyatorlar;",
+      "neyrotarmoqlar va neyroemulyatorlar;",
+      "neyrostrukturalar va neyronlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 20,
+    "subject": "Sun'iy intellekt",
+    "question": "Neyroemulyatorlar - bu ...................",
+    "options": [
+      "neyropaketlar, neyroilovalarni yaratuvchi tizimlar va neyrotarmoqlar asosida tayyor echimlarni olish tizimlari;",
+      "neyronlar, signallar va aloqalar;",
+      "kirish signallari, neyrotarmoqlar va teskari aloqalar;",
+      "neyrostrukturalar va neyronlar birlashmasi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 21,
+    "subject": "Sun'iy intellekt",
+    "question": "Expert tizimlar qaysi modelga asoslanadi?",
+    "options": [
+      "fayl arxitekturasi",
+      "grafik interfeys",
+      "bilimlar bazasi va inferensiya mexanizmi;",
+      "internet protokollari"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 22,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlarni boshqarish -bu ...................",
+    "options": [
+      "bilimlarni to'ldirish, sinflash, umumlashtirish va bilimlar asosida fikrlash;",
+      "bilimlarni olish, ekspertga qaytarish, ekspert bilan aloqa va fikrlash;",
+      "bilimlarni tahlillash, sintezlash, tushuntirish, algoritmlash;",
+      "bilimlarni yig'ish, o'chirish, sinflash va kompyuterga kiritish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 23,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlar modellari - bu .......................",
+    "options": [
+      "semantik tarmoq, freym, mantiqiy tizim, produksiya va senariylar;",
+      "semantic tarmoq, integralli, differensialli, mantiqiy tizimlar;",
+      "strukturali, sxemali, grafikli, mantiqiy tizimlar va uzlukli tizimlar;",
+      "nostrukturali, nosemantikli, dasturli, produksiyali tizimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 24,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlar asosida xulosalash - bu .......................",
+    "options": [
+      "rezolyutsiyali usullar, kvaziaksiomatik tizimlar va haqiqatga yaqin xulosalash;",
+      "semantic tarmoq, integralli, differensialli xulaslash;",
+      "strukturali, sxemali va grafikli xulosalash;",
+      "nostrukturali, nosemantikli va dasturli xulosalash."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 25,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellekta dasturlash paradigmalariga kiruvchilarni aniqlang?",
+    "options": [
+      "protsedurali, ma'lumotlarga, qoidalarga va obyektlarga mo'ljallangan dasturlash;",
+      "modellarga, usullarga, ma'lumotlarga, strukturalarga mo'ljallangan dasturlash;",
+      "jadvallarga, strukturalarga, sxemalarga va grafiklarga mo'ljallangan dasturlash;",
+      "bo'lishga, qo'shishga, matnga, ovozga va nutqga mo'ljallangan dasturlash."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 26,
+    "subject": "Sun'iy intellekt",
+    "question": "Belgili axborotlarni qayta ishlash dasturlarini aniqlang?",
+    "options": [
+      "PROLOG, LISP, CLIPS, EKLIPS, PLANNER, MERKURY;",
+      "KE, ARTS, GURU, G2, EKLIPS,;",
+      "ARTS, GURU, ALISE, KL0, ShapeUp;",
+      "BUILD, EMYCIN, EXSYS, KL0, ShapeUp."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 27,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimning qobig'larini aniqlang?",
+    "options": [
+      "BUILD, EMYCIN, EXSYS, Professional, ???????;",
+      "BUILD, EMYCIN, OPS-5, FRL;",
+      "EXSYS, Professional, ALISE, KL0, ShapeUp;",
+      "Professional, ???????, EXSYS, KL0, ShapeUp."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 28,
+    "subject": "Sun'iy intellekt",
+    "question": "Intellektual interfeys (Intelligent interface -bu .........................",
+    "options": [
+      "foydalanuvchilar uchun matnli so'rovlarni qayta ishlash dasturlari orqali axborotlar kompleksi va foydalanuvchi resurslari o'rtasida o'zaro ta'sir o'tkazish interfeysi;",
+      "foydalanuvchilar uchun matnli so'rovlarni qayta ishlash va o'zaro ta'sir o'tkazish interfeysi,;",
+      "yordamch qurilmalar va kompyuter orasidagi muloqot;",
+      "kompyuterlar orasidagi muloqot."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 29,
+    "subject": "Sun'iy intellekt",
+    "question": "Autentifikatsiya - bu .........................",
+    "options": [
+      "foydalanuvchining haqiqatan ham o'zi ekanligini tekshirish;",
+      "kompyuterni tekshirish,;",
+      "kompyuterlar orasidagi muloqotni tekshirish;",
+      "yordamch qurilmalar va kompyuter orasidagi aloqalarni tekshirish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 30,
+    "subject": "Sun'iy intellekt",
+    "question": "Identifikatsiya - bu ...................................",
+    "options": [
+      "obyektni tanib olishdir;",
+      "obyektni sinflashdir;",
+      "obyektni boshqarishdir;",
+      "obyektni bo'laklash."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 31,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellektni qurishda asosiy yondashuvlarni aniqlang ?.",
+    "options": [
+      "mantiqiy, evolyutsiyali, strukturali va imitatsiyali;",
+      "mantiqiy, evolyutsiyali, integralli va imitatsiyali;",
+      "mantiqiy, neyronli, differensialli va imitatsiyali;",
+      "evolyutsiyali, funksiali, strukturali va imitatsiyali."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 32,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellektni qurishning mantiqiy yondashuvi uchun asos sifatida ...................... xizmat qiladi.",
+    "options": [
+      "Bul algebrasi;",
+      "Pitts algebrasi;",
+      "Fon Neyman prindipi;",
+      "Mak Kallok prinsipi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 33,
+    "subject": "Sun'iy intellekt",
+    "question": "Noravshan mantiqda mulohazalar ........................ qiymatlarni qabul qiladi.",
+    "options": [
+      "oraliq;",
+      "ha yoki yo'q;",
+      "chin yoki yolg'on;",
+      "uzluksiz."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 34,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellektni qurishning strukturali yondashuvida .........modellashtiriladi.",
+    "options": [
+      "inson miyasining tuzilishi;",
+      "kompyuter xotirasining tuzilishi;",
+      "chin yoki yolg'on qiymatlar;",
+      "uzluksiz qiymatlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 35,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellektni qurishning evolyutsiyali yondashuvida ...........",
+    "options": [
+      "boshlang'ich modellar va qoidalar quriladi va ularni generatsiya qilish asosida yangi modellar quriladi;",
+      "faqat boshlang'ich modellar va qoidalardan foydalaniladi;",
+      "faqat uzlukli modellar va qoidalardan foydalaniladi;",
+      "qisman uzlukli modellar va uzluksiz qoidalardan foydalaniladi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 36,
+    "subject": "Sun'iy intellekt",
+    "question": "Intellektual agentning asosiy elementi qaysi?",
+    "options": [
+      "internet modem",
+      "faqat kamera",
+      "sensor va aktuatorlar;",
+      "printer va skaner"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 37,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellektni qurishning imitatsiyali yondashuvida ......modellashtiriladi.",
+    "options": [
+      "insonning boshqalardan nusxa olish qobiliyati",
+      "neyron tarmoqning fikrlash qobiliyati",
+      "kompyuterning nusxa olish qobiliyati modellashtiriladi",
+      "printerning nusxa olish qobiliyati modellashtiriladi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 38,
+    "subject": "Sun'iy intellekt",
+    "question": "Exspert tizimlar ko'proq qanday bilimlarga asoslanadi",
+    "options": [
+      "exspertlarning empirik bilimlari asosida shakllantirilgan bilimlarga",
+      "kitoblardan olingan bilimlarga",
+      "ilmiy jurnallardan olingan bilimlarga",
+      "gazetadan olingan bilimlarga"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 39,
+    "subject": "Sun'iy intellekt",
+    "question": "Turing testi nima uchun ishlatiladi?",
+    "options": [
+      "operatsion tizimni o'rnatish uchun",
+      "internet tezligini o'lchash uchun",
+      "mashina insondek fikrlay olishini tekshirish uchun",
+      "fayllarni tiklash uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 40,
+    "subject": "Sun'iy intellekt",
+    "question": "Zaif sun'iy intellektning asosiy xususiyati?",
+    "options": [
+      "hamma vazifani bajaradi",
+      "inson o'rnini to'liq bosadi",
+      "faqat bitta vazifaga ixtisoslashgan",
+      "o'z-o'zini anglaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 41,
+    "subject": "Sun'iy intellekt",
+    "question": "Kuchli sun'iy intellekt qanday bo'ladi?",
+    "options": [
+      "faqat o'yin o'ynaydi",
+      "faqat hisob-kitob qiladi",
+      "inson darajasida fikrlay oladi",
+      "faqat tasvir tanish vazifasini bajaradi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 42,
+    "subject": "Sun'iy intellekt",
+    "question": "MYCIN qaysi tilda yozilgan?",
+    "options": [
+      "Java",
+      "C++",
+      "LISP",
+      "Python"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 43,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimda \"inferensiya mexanizmi\" nima qiladi?",
+    "options": [
+      "ma'lumotni saqlaydi",
+      "grafika chizadi",
+      "qaror chiqaradi",
+      "internetga ulanadi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 44,
+    "subject": "Sun'iy intellekt",
+    "question": "Data Miningning asosiy maqsadi?",
+    "options": [
+      "fayllarni siqish",
+      "kompyuterni optimallashtirish",
+      "katta ma'lumotlardan bilim ajratish",
+      "elektron pochta yuborish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 45,
+    "subject": "Sun'iy intellekt",
+    "question": "Agentlarning vazifasi?",
+    "options": [
+      "faqat rasm chizish",
+      "faqat audio eshitish",
+      "atrof-muhitni sezish va qaror qabul qilish",
+      "kompyuter grafikasini ishlab chiqish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 46,
+    "subject": "Sun'iy intellekt",
+    "question": "K-Means qanday algoritm?",
+    "options": [
+      "klassifikatsiya",
+      "regressiya",
+      "klasterlash",
+      "shifr"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 47,
+    "subject": "Sun'iy intellekt",
+    "question": "Turing testi nima uchun ishlatiladi?",
+    "options": [
+      "kompyuter tezligini o'lchash",
+      "dasturiy xatolarni aniqlash",
+      "mashina insondek fikrlay olishini tekshirish uchun",
+      "ma'lumotlarni tahlil qilish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 48,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimda \"inferensiya mexanizmi\" nima qiladi?",
+    "options": [
+      "grafik yaratadi",
+      "ma'lumotni saqlaydi",
+      "qaror chiqaradi",
+      "algoritmlarni optimallashtiradi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 49,
+    "subject": "Sun'iy intellekt",
+    "question": "Tibbiyotda qo'llaniladigan expert tizimlarni ko'tsating ?",
+    "options": [
+      "MYCIN, PUFF, MODIS",
+      "MIXER, MYCIN, ACE",
+      "DART, HANNIBAL, PUFF",
+      "MYCIN, MIDAS, ACES"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 50,
+    "subject": "Sun'iy intellekt",
+    "question": "Harbiy sohada qo'llaniladigan expert tizimlarni ko'tsating ?",
+    "options": [
+      "DART, HANNIBAL, I&W;",
+      "MIXER, MYCIN, ACE;",
+      "DART, HANNIBAL, PUFF;",
+      "MYCIN, MIDAS, ACES;"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 51,
+    "subject": "Sun'iy intellekt",
+    "question": "AI tarixida birinchi chatbot?",
+    "options": [
+      "Siri",
+      "Alexa",
+      "ELIZA",
+      "ALICE"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 52,
+    "subject": "Sun'iy intellekt",
+    "question": "CNN tarmog'i qaysi vazifaga mo'ljallangan?",
+    "options": [
+      "Audio yozishni tahlil qilish",
+      "Statistik ma'lumotlarni hisoblash",
+      "Tasvirni tanish va analiz qilish",
+      "Internet trafikini nazorat qilish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 53,
+    "subject": "Sun'iy intellekt",
+    "question": "Supervised learning nimani anglatadi?",
+    "options": [
+      "Ma'lumotlarsiz o'rganish",
+      "Tasodifiy ma'lumotlar bilan o'rganish",
+      "Natijalar ma'lum bo'lgan holda o'rganish",
+      "Algoritmni o'z-o'zini kuzatmasdan ishlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 54,
+    "subject": "Sun'iy intellekt",
+    "question": "Backpropagation qaysi algoritmga tegishli?",
+    "options": [
+      "K-Means",
+      "Naive Bayes",
+      "Chuqur neyron tarmoqlarga",
+      "Logistik regressiya"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 55,
+    "subject": "Sun'iy intellekt",
+    "question": "AI da \"unsupervised learning\" nimani anglatadi?",
+    "options": [
+      "Natijalar bilan o'rganish",
+      "Faqat statistik tahlil",
+      "Natijalarsiz o'rganish",
+      "Algoritmni qo'lda boshqarish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 56,
+    "subject": "Sun'iy intellekt",
+    "question": "Chatbotlar qaysi texnologiyaga asoslanadi?",
+    "options": [
+      "Robototexnika",
+      "Kiberxavfsizlik",
+      "Natural Language Processing (NLP)",
+      "Sun'iy neyron tarmoqlar"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 57,
+    "subject": "Sun'iy intellekt",
+    "question": "Mashinali o'qitishda overfitting nima?",
+    "options": [
+      "Modelning juda oddiy bo'lishi",
+      "Natijalarni tasodifiy chiqarish",
+      "Model o'quv ma'lumotlariga haddan tashqari moslashishi",
+      "Modelning ishlash vaqtini kamaytirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 58,
+    "subject": "Sun'iy intellekt",
+    "question": "CNN tarmog'i qaysi vazifada eng ko'p ishlatiladi?",
+    "options": [
+      "Matematika masalalarini yechish",
+      "Matn tahlili",
+      "Rasm va tasvirlarni tanish",
+      "Internet trafikini nazorat qilish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 59,
+    "subject": "Sun'iy intellekt",
+    "question": "Informatika sohasida qo'llaniladigan expert tizimlarni ko'tsating ?",
+    "options": [
+      "RUBRIC, CODES, MIXER;",
+      "DART, MYCIN, ACE;",
+      "DART, HANNIBAL, PUFF;",
+      "I&W, MYCIN, ACES."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 60,
+    "subject": "Sun'iy intellekt",
+    "question": "Sun'iy intellektdan foydalanishning funktsional tuzilishi qanday komplekslardan iborat?",
+    "options": [
+      "Bajaruvchi tizim, intellektual interfeys, bilimlar bazasi;",
+      "Foydalanuvchi, muloqot tizimi, programmalar;",
+      "Hisoblash, translyatorlar, axborotli qatlam;",
+      "Konseptual qatlam, bajaruvchi, izlash vositalari."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 61,
+    "subject": "Sun'iy intellekt",
+    "question": "Ma'lumotlar nima?",
+    "options": [
+      "obyektlar, jarayonlar va hodisalarni hamda ularning xossalarini tavsiflaydi;",
+      "faqat obyektlar, jarayonlar va hodisalarni tavsiflaydi;",
+      "faqat mantiqiy obyektlar tavsiflaydi;",
+      "funksional va strukturali jarayonlarni tavsiflaydi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 62,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlar nima?",
+    "options": [
+      "obyektiv qonuniyatlar;",
+      "obyektlar to'plami;",
+      "exspertlar to'plami;",
+      "predmet sohadagi masalalar to'plami."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 63,
+    "subject": "Sun'iy intellekt",
+    "question": "Aniq obyekt yoki obyeltlar sinfini (narsalar, jarayonlar, hodisalar va h.k.) tavsiflaydigan bilimlar qanday bilimlar ?",
+    "options": [
+      "Obyektiv bilimlar;",
+      "Subyektiv bilimlar;",
+      "Metabilimlar;",
+      "Imitatsiyali bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 64,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlarni izohlashlar nuqtai-nazaridan birlashtirilgan to'g'ri guruhlarni ko'rsating?",
+    "options": [
+      "Psixologikli, intellektualli, formalli-mantiqli va axborotli-texnologokli;",
+      "Psixologikli, intellektualli, integralli va belgili;",
+      "Metabilimli, formalli-mantiqli va formulali;",
+      "Ta'sir etuvchili, o'zgaruvchili, bilimli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 65,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlarni izohlashlar nuqtai-nazaridan to'g'ri birlashtirilgan guruhlarni ko'rsating?",
+    "options": [
+      "Psixologikli, intellektualli, formalli-mantiqli va axborotli-texnologokli;",
+      "Psixologikli, intellektualli, integralli va belgili;",
+      "Metabilimli, formalli-mantiqli va formulali;",
+      "Ta'sir etuvchili, o'zgaruvchili, bilimli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 66,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlar manbalardan olinishiga qarab qanday tiplarga bo'linadi?",
+    "options": [
+      "Aprior va hosil qilinadigan bilimlar;",
+      "Psixologikli, intellektualli va formulali bilimlar;",
+      "Metabilimli, formalli-mantiqli va formulali bilimlar;",
+      "Aprior va ta'sir etuvchili, o'zgaruvchili bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 67,
+    "subject": "Sun'iy intellekt",
+    "question": "Hosil qilinadigan bilimlarning qanday turlari mavjud?",
+    "options": [
+      "Exspertli, kuzatiladigan va xulosalaydigan bilimlar;",
+      "Psixologikli, intellektualli va kuzatiladigan bilimlar;",
+      "Metabilimli, formalli-mantiqli va xulosalaydigan bilimlar;",
+      "Aprior va ta'sir etuvchili, kuzatiladigan bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 68,
+    "subject": "Sun'iy intellekt",
+    "question": "Masalalarni echishda foydalanish darajasiga bog'liqligi bo'yicha bilimlarning qanday turlari mavjud?",
+    "options": [
+      "Deklarativli, protsedurali va metabilimlar;",
+      "Psixologikli, protsedurali va metabilimlar;",
+      "Exspertli, kuzatiladigan va xulosalaydigan bilimlar;",
+      "Aprior va ta'sir etuvchili, kuzatiladigan bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 69,
+    "subject": "Sun'iy intellekt",
+    "question": "Masalalarni echishda ishonchlilik darajasi bo'yicha bilimlarning qanday turlari mavjud?",
+    "options": [
+      "Muayyan, noravshan;",
+      "Psixologikli, protsedurali;",
+      "Exspertli, kuzatiladigan;",
+      "Apriorli, kuzatiladigan."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 70,
+    "subject": "Sun'iy intellekt",
+    "question": "Masalalarni echishda maqsadga yo'naltirilganligi bo'yicha bilimlarning qanday turlari mavjud?",
+    "options": [
+      "Nusxa oluvchi, tanishtiruvchi, qobilyatni rivojlantiruvchi, malakani oshiruvchi;",
+      "Muayyan, noravshan, qobilyatni rivojlantiruvchi, malakani oshiruvchi;",
+      "Nusxa oluvchi, tanishtiruvchi, exspertli, kuzatiladigan;",
+      "Apriorli, kuzatiladigan, psixologikli, protsedurali."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 71,
+    "subject": "Sun'iy intellekt",
+    "question": "Obyektlarni va ular orasidagi munosabatlarni tavsivlash uchun qo'llanildigan bilimlarni ko'rsating?",
+    "options": [
+      "Deklarativ bilimlar;",
+      "Qobilyatni rivojlantiruvchi bilimlar;",
+      "Protsedurali bilimlar;",
+      "Kuzatiladigan bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 72,
+    "subject": "Sun'iy intellekt",
+    "question": "O'zini-o'zi izohlovchi bilimlar qaysi bilimlar turiga kiradi?",
+    "options": [
+      "Protsedurali bilimlar;",
+      "Qobilyatni rivojlantiruvchi bilimlar;",
+      "Kuzatiladigan bilimlar;",
+      "Deklarativ bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 73,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlar haqidagi bilimlar qaysi bilimlar turiga kiradi?",
+    "options": [
+      "Metabilimlar;",
+      "Qobilyatni rivojlantiruvchi bilimlar;",
+      "Texnologik bilimlar;",
+      "Deklarativ bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 74,
+    "subject": "Sun'iy intellekt",
+    "question": "Extensionalli bilimni ko'rsating?",
+    "options": [
+      "Axmedov oliy ma'lumotli diplomga ega;",
+      "Axmedov oliy ma'lumotli diplomga ega bo'lishi mumkin, masalan, bakalavr;",
+      "Abiturient o'qishga kirishi uchun, u test savollaridan 68 balldan yuqori ball to'plashi kerak;",
+      "Agar geometrik figuraning ichki burchaklari yig'indisi 180 gradus bo'lsa, u holda bu uchburchak."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 75,
+    "subject": "Sun'iy intellekt",
+    "question": "Intensionalli bilimni ko'rsating?",
+    "options": [
+      "Talaba stipendiyatlar tanlovida qatnashishi uchun, u barcha fanlardan a'lo baho o'lgan bo'lishi kerak;",
+      "Axmedov oliy ma'lumotli diplomga ega;",
+      "Talabalar binoga kirdilar;",
+      "Printer stol ustida turibdi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 76,
+    "subject": "Sun'iy intellekt",
+    "question": "Qaysi javobda bilimlarning xususiyatlari to'g'ri ko'rsatilgan?",
+    "options": [
+      "Ichki izohlanuvchanlik, strukturaviylik, bog'langanlik, semantik metrika, faollik;",
+      "To'liqlik, strukturaviylik, bog'langanlik, natijaviylik, faollik;",
+      "Natijaviylik, strukturaviylik, bog'langanlik, semantik metrika, bir qiymatlilik;",
+      "Strukturaviylik, ichki izohlanuvchanlik, to'liqlik, faollik"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 77,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlarni tushunishning uchinchi darajasi nima bilan xarakterlanadi?",
+    "options": [
+      "Atrof - muhit haqidagi tizimlar bilimlari bilan matnni to'ldirish qoidalarining qo'shilishi bilan xarakterlanadi;",
+      "Matndan tashqari matn manbai bo'lgan va tizim xotirasida aloqaga taalluqli umumiy axborotlarni saqlaydigan muayyan subyekt haqidagi axborotdan foydalanishi bilan xarakterlanadi.",
+      "Matndan kiritilgan savollarga javobni tizim to'g'ridan-to'g'ri ma'nosiga asoslanib shakllantirish sxemasi bilan xarakterlanadi;",
+      "Matndagi ma'lumotlarga asoslangan mantiqiy xulosa qilish vositalari qo'shilishi bilan xarakterlanadi;"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 78,
+    "subject": "Sun'iy intellekt",
+    "question": ".......................-bu qandaydir tushunchani figura, yozuv, til yoki formal shaklda qabul qilinadigan amal hisoblanadi.",
+    "options": [
+      "Tasvirlash;",
+      "Bilimlarni tasvirlash;",
+      "Bilimlarni formallashtirish;",
+      "Bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 79,
+    "subject": "Sun'iy intellekt",
+    "question": "Supervised learning algoritmlariga misol?",
+    "options": [
+      "K-Means",
+      "Autoencoder",
+      "Logistik regressiya",
+      "PCA"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 80,
+    "subject": "Sun'iy intellekt",
+    "question": "K-Means algoritmi qaysi turga kiradi?",
+    "options": [
+      "Supervised learning",
+      "Reinforcement learning",
+      "Unsupervised learning",
+      "Deep learning"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 81,
+    "subject": "Sun'iy intellekt",
+    "question": "Naive Bayes algoritmi qaysi turga kiradi?",
+    "options": [
+      "Unsupervised learning",
+      "Deep learning",
+      "Supervised learning",
+      "Reinforcement learning"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 82,
+    "subject": "Sun'iy intellekt",
+    "question": "Ma'lumotlarni tasvirlash modellarini ko'rsating?",
+    "options": [
+      "Ierarxikli, tarmoqli, obyektli, relyatsiyali, obyektli- rellyatsiyali,ko'po'lchovli;",
+      "Ierarxikli, grafikli, belgili, relyatsiyali, obyektli-rellyatsiyali, ko'po'lchovli;",
+      "Ierarxikli, grafikli, integrally, jadvalli, relyatsiyali, ko'po'lchovli;",
+      "Ierarxikli, grafikli, belgili, relyatsiyali, belgili-rellyatsiyali, bir o'lchovli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 83,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlarni tasvirlash modellarini ko'rsating?",
+    "options": [
+      "Freymli, semantik tarmoqli, formal-mantiqiy, produksiyali;",
+      "Freymli, grafikli, belgili, relyatsiyali, obyektli-rellyatsiyali, ko'po'lchovli;",
+      "Formal-mantiqiy, grafikli, integrally, jadvalli, relyatsiyali;",
+      "Ierarxikli, produksiyali, belgili, relyatsiyali, belgili-rellyatsiyali;"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 84,
+    "subject": "Sun'iy intellekt",
+    "question": "Formal modellarda mantiqiy xulosalash nimaga asoslanadi?",
+    "options": [
+      "Qat'iy aksiomatik qoidalarga;",
+      "Qat'iy dinamik qoidalarga;",
+      "Qat'iy stastik qoidalarga;",
+      "Qat'iy o'zgaruvchilarga."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 85,
+    "subject": "Sun'iy intellekt",
+    "question": "Noformal modellarda mantiqiy xulosalash nimaga asoslanadi?",
+    "options": [
+      "Ko'pincha tadqiqotchi tomonidan aniqlanadi;",
+      "Ko'pincha qat'iy dinamik qoidalarga;",
+      "Qat'iy stastik qoidalarga;",
+      "Ko'pincha o'zgaruvchilarga."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 86,
+    "subject": "Sun'iy intellekt",
+    "question": "Formal modellar ifodasini aniqlang?",
+    "options": [
+      "F=(A,V, W, R) ;",
+      "?=<1, O, ?, ?, ?, ?, I, G>;",
+      "H=<I, C1, C2, ..., Cn, ?>;",
+      "i; Q; P, A>B, N."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 87,
+    "subject": "Sun'iy intellekt",
+    "question": "Freym- bu ............................. kabi mazmunlarda ishlatiladi.",
+    "options": [
+      "paycha, panjara, ichki skelet;",
+      "protofreym, produksiy;",
+      "slot, freym-ekzemplyar;",
+      "slot, freym-ekzemplyar, senariy."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 88,
+    "subject": "Sun'iy intellekt",
+    "question": "Senariyning maxsus slotlari sifatida ............................. kabilar keladi.",
+    "options": [
+      "senariylar, maqsad, sahna va rol;",
+      "protofreym, produksiy;",
+      "senariylar, freym-ekzemplyar;",
+      "slot, freym-ekzemplyar, senariy."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 89,
+    "subject": "Sun'iy intellekt",
+    "question": "Daraxtda VA - strukturalarga ........................mos keladi.",
+    "options": [
+      "bog'langan tugunlar;",
+      "tupikli va siklli tugunlar;",
+      "bog'lanmagan tugunlar;",
+      "bo'sh tugunlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 90,
+    "subject": "Sun'iy intellekt",
+    "question": "Daraxtda YOKI - strukturalarga ........................mos keladi.",
+    "options": [
+      "bog'lanmagan tugunlar;",
+      "tupikli va siklli tugunlar;",
+      "bog'langan tugunlar;",
+      "bo'sh tugunlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 91,
+    "subject": "Sun'iy intellekt",
+    "question": "Butunni qism elementlarga ajratishda ularning har birini alohida qaraydigam mantiqiy usul-bu...................",
+    "options": [
+      "tahlil;",
+      "sintez;",
+      "induksiya;",
+      "deduksiy."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 92,
+    "subject": "Sun'iy intellekt",
+    "question": "Tahlil natijasida olingan barcha ma'lumotlar birlashmasi-bu...............?",
+    "options": [
+      "sintez;",
+      "tahlil;",
+      "induksiya;",
+      "deduksiy."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 93,
+    "subject": "Sun'iy intellekt",
+    "question": "Fikrning hususiylikdan umumiylikga, qator faktorlardan qonunga harakat jarayoni-bu.......................",
+    "options": [
+      "induksiya;",
+      "tahlil;",
+      "sintez;",
+      "deduksiy."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 94,
+    "subject": "Sun'iy intellekt",
+    "question": "Fikrning umumiylikdan hususiylikga, qonundan alohidalikning namoyon bo'lishiga harakat jarayoni-bu..................",
+    "options": [
+      "deduksiy;",
+      "tahlil;",
+      "sintez;",
+      "abstraktlashtirish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 95,
+    "subject": "Sun'iy intellekt",
+    "question": "Predikatlar mantiqi elementar mulohazani ....................qismlarga bo'ladi.",
+    "options": [
+      "subyekt va predikat;",
+      "tahlil va sintez;",
+      "mavjudlik va umumiylik;",
+      "mavjudlik, umumiylik va kon'yunksiya."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 96,
+    "subject": "Sun'iy intellekt",
+    "question": "...................-bu mulohazada biror narsa haqida nimadir tasdiqlaydi, .....................- bu subyektni tasdiqlash.",
+    "options": [
+      "subyekt; predikat;",
+      "tahlil; sintez;",
+      "mavjudlik; umumiylik;",
+      "induksiya; deduksiya."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 97,
+    "subject": "Sun'iy intellekt",
+    "question": "Zarrux-talaba mulohazasida Zarrux -.............., talaba -............. ..",
+    "options": [
+      "subyekt; predikat;",
+      "tahlil; sintez;",
+      "mavjudlik; umumiylik;",
+      "induksiya; deduksiya."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 98,
+    "subject": "Sun'iy intellekt",
+    "question": "Agar formula ifodasiga kiruvchi va sohaga oid o'zgaruvchilarning shunday qiymatlari mavjud bo'lib, bu qiymatlarda formula chin qiymat qabul qilsa, u holda predikatlar mantiqining formulasi sohada ...............................formula deb aytiladi.",
+    "options": [
+      "bajariluvchi;",
+      "bajarilmas;",
+      "umumqiymatli;",
+      "aynan chin."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 99,
+    "subject": "Sun'iy intellekt",
+    "question": "Agar ning ifodasiga kiruvchi va sohaga oid hamma o'zgaruvchilarning qiymatlarida formula chin qiymat qabul qilsa, u holda formula sohada .................. formula deb aytiladi.",
+    "options": [
+      "aynan chin;",
+      "aynan yolg'on;",
+      "bajariluvchi;",
+      "umumqiymatli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 100,
+    "subject": "Sun'iy intellekt",
+    "question": "Agar ning ifodasiga kiruvchi va sohaga oid hamma o'zgaruvchilarning qiymatlarida formula yolg'on qiymat qabul qilsa, u holda formula sohada .................. formula deb aytiladi.",
+    "options": [
+      "aynan yolg'on;",
+      "umumqiymatli;",
+      "bajariluvchi;",
+      "aynan chin."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 101,
+    "subject": "Sun'iy intellekt",
+    "question": "Agar formula har qanday sohada ......... bo'lsa, u holda ga umumqiymatli formula deb aytiladi.",
+    "options": [
+      "aynan chin;",
+      "aynan yolg'on;",
+      "bajariluvchi;",
+      "chin va yolg'on."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 102,
+    "subject": "Sun'iy intellekt",
+    "question": "Qandaydir tasdiqlarni qabul qilishga olib keladigan (majbur qiladigan) argument(fakt)lar ketma-ketligi-bu ..................deyiladi.",
+    "options": [
+      "fikrlash;",
+      "tahlil;",
+      "teskari induksiya;",
+      "teskari deduksiya;"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 103,
+    "subject": "Sun'iy intellekt",
+    "question": "Kuzatilayotgan hodisa va faktorlarni tushuntiruvchi gipotezalarni shakllantirish jarayoni - bu ....................",
+    "options": [
+      "abduksiya;",
+      "induksiya;",
+      "deduksiya;",
+      "tahlil."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 104,
+    "subject": "Sun'iy intellekt",
+    "question": "Quyidagi qoida mavjud: Ushbu auditoriyadagi ????? talabalar bakalavriatlar; Kuzatish natijasi quyidagicha: Bu talabalar bakalavriatlar; U holda abduksiya bo'yicha keltirrrilgan to'g'ri xulosani toping?",
+    "options": [
+      "Bu bakalavriatlar ushbu auditoriyadan chiqqan;",
+      "Bu bakalavriatlar ushbu auditoriyadan chiqmaqan;",
+      "Bu talabalar ushbu auditoriyadan chiqqan;",
+      "Bu talabalar ushbu auditoriyadan chiqmaqan."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 105,
+    "subject": "Sun'iy intellekt",
+    "question": "Berilgan: x; y.x: Fariza -talaba; y: Fariza - a'lo baho olishga haqli; Induktiv xulosalash to'g'ri ko'rsatilgan javobni toping?",
+    "options": [
+      "Barcha talabalar a'lo baho olishga haqli;",
+      "Barcha talabalar a'lo baho olishga haqli emas;",
+      "Barcha a'lo bahoga o'qiydiganlar-talaba;",
+      "A'lo bahoga o'qiydiganlarning barchasi-talaba."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 106,
+    "subject": "Sun'iy intellekt",
+    "question": "Semantik tarmoq termini qaysi olimning ishlarida paydo bo'lgan?",
+    "options": [
+      "R.Kullian;",
+      "Saymon;",
+      "Pirs ;",
+      "Richanson."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 107,
+    "subject": "Sun'iy intellekt",
+    "question": ".................................- bu yo'naltirilgan gtaf bo'lib, uning tugunlari -tushunchalarga, yoylari esa -tugunlar orasidagi munosabatlarga mos keladi.",
+    "options": [
+      "Semantik tarmoq;",
+      "Sintaktik tarmoq;",
+      "Morfologik tarmoq;",
+      "Mantiqiy tarmoq."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 108,
+    "subject": "Sun'iy intellekt",
+    "question": "Tarmoqda tugunlarga qo'yilgan chegaralar va ular orasidagi aloqalarga qarab tarmoqlar qanday tiplarga bo'linadi?",
+    "options": [
+      "oddiy, ierarxikli, birjinsli, birjinslimas;",
+      "oddiy, assotsativ, ko'pjinsli, birjinslimas;",
+      "ierarxikli, kauzalli, propozitsiyali, birjinslimas;",
+      "birjinsli, assotsoativ, funksiomal,birjinslimas."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 109,
+    "subject": "Sun'iy intellekt",
+    "question": "Munosabatlar turiga qarab tarmoqlar qanday tiplarga bo'linadi?",
+    "options": [
+      "binarli, N-arli;",
+      "oddiy, binarli;",
+      "ierarxikli, kauzalli;",
+      "birjinsli, assotsoativ."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 110,
+    "subject": "Sun'iy intellekt",
+    "question": "Predmet sohadagi obyektlar, jarayonlar o'rtasidagi munosabatlarga qarab tarmoqlar qanday tiplarga bo'linadi?",
+    "options": [
+      "Sinflovchi, funksionalli, semantikli, freymli, senariyli;",
+      "oddiy, binarli, funksionalli, semantikli;",
+      "ierarxikli, kauzalli, oddiy, binarli;",
+      "birjinsli, assotsoativ, semantikli, freymli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 111,
+    "subject": "Sun'iy intellekt",
+    "question": "Qaysi tarmoqlarda tushuncha sifatida inson xotirasida saqlangan bilimlarning ba'zi bir aspektlari aks ettiriladi?",
+    "options": [
+      "Assotsiativli;",
+      "Semantikli;",
+      "Ierarxikli;",
+      "Freymli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 112,
+    "subject": "Sun'iy intellekt",
+    "question": "Qaysi tarmoqli modelda turli xil bog`lanishlarga ruxsat etiladi?",
+    "options": [
+      "Semantikli;",
+      "Assotsiativli;",
+      "Ierarxikli;",
+      "Freymli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 113,
+    "subject": "Sun'iy intellekt",
+    "question": "Qaysi tarmoqlarda tugunlarga funksiyalar, yo'larga esa funksiyning argumenlari mos qo'yiladi?",
+    "options": [
+      "Funksional tarmoqlarda;",
+      "Assotsiativ tarmoqlarda;",
+      "Kauzal tarmoqlarda;",
+      "Semantik tarmoqlarda."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 114,
+    "subject": "Sun'iy intellekt",
+    "question": "Semantik tarmoqda barcha munosabatlar binar munosabatlardan iborat bo'lsa, u holda ular qaysi grafni tashkil qiladi?",
+    "options": [
+      "Relyatsion grafni;",
+      "Kauzal grafni;",
+      "Assotsiativ grafni;",
+      "Uzluksiz grafni."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 115,
+    "subject": "Sun'iy intellekt",
+    "question": "Semantik tarmoqda barcha munosabatlar N-ar munosabatlardan iborat bo'lsa, u holda ular qaysi grafni tashkil qiladi?",
+    "options": [
+      "Konseptualli grafni;",
+      "Kauzal grafni;",
+      "Assotsiativ grafni;",
+      "Relyatsion grafni."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 116,
+    "subject": "Sun'iy intellekt",
+    "question": "Agar semantik tarmoqda munosabatlarning ichma-ichligi bir nechta bo'lsa, u holda ular qaysi tarmpqni tashkil qiladi?",
+    "options": [
+      "Propozitsiyali tarmoqni;",
+      "Kauzal tarmoqni;",
+      "Assotsiativ tarmoqni;",
+      "Relyatsion grafni."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 117,
+    "subject": "Sun'iy intellekt",
+    "question": "Agar semantik tarmoqda hodisalarni tasvirlash uchun ko'proq markazda fe'l bilan kelgan graf qaysi grafni tashkil qiladi?",
+    "options": [
+      "Rast'e grafini;",
+      "Propozitsiyali grafini;",
+      "Assotsiativ grafini;",
+      "Relyatsion grafni."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 118,
+    "subject": "Sun'iy intellekt",
+    "question": "Semantik tarmoqlarda ierarxikli tipli munosabatlarni ko'rsating?",
+    "options": [
+      "\"ISA\", \"AKO\", \"butun-qism\" munosabatlari;",
+      "\"sabab-oqibat\", AKO, \"butun-qism\" munosabatlari;",
+      "\"ISA\", \"fakt-xulosat\", \"sabab-oqibat\" munosabatlari;",
+      "\"va\", \"yoki\", \"butun-qism\" munosabatlari."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 119,
+    "subject": "Sun'iy intellekt",
+    "question": "Semantik tarmoqlarda funksional munosabatlarni ko'rsating?",
+    "options": [
+      "kelib chiqadi, ta'sir etadi munosabatlari;",
+      "\"sabab-oqibat\", \"butun-qism\" munosabatlari;",
+      "\"ISA\", \"fakt-xulosat\" munosabatlari;",
+      "\"va\", \"yoki\" munosabatlari."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 120,
+    "subject": "Sun'iy intellekt",
+    "question": "Semantik tarmoqlarda fazoli munosabatlarni ko'rsating?",
+    "options": [
+      "dan uzoq, ga yaqin, ustida, tagida munosabatlari;",
+      "\"sabab-oqibat\", \"butun-qism\", tagida, yuqorida munosabatlari;",
+      "\"ISA\", \"fakt-xulosat\", ga yaqin, ustida munosabatlari;",
+      "\"va\", \"yoki\", dan uzoq, ga yaqin munosabatlari."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 121,
+    "subject": "Sun'iy intellekt",
+    "question": "Semantik tarmoqlarda vaqtli munosabatlarni ko'rsating?",
+    "options": [
+      "oldin, keyin, bilan birvaqtda munosabatlari;",
+      "\"sabab-oqibat\", oldin, tagida, yuqorida munosabatlari;",
+      "oldin, keyin, ga yaqin, ustida munosabatlari;",
+      "bilan birvaqtda, dan uzoq, ga yaqin munosabatlari."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 122,
+    "subject": "Sun'iy intellekt",
+    "question": "Semantik tarmoqlarda atributli munosabatlarni ko'rsating?",
+    "options": [
+      "xususiyatga ega, qiymatga ega munosabatlari;",
+      "xususiyatga ega, oldin munosabatlari;",
+      "qiymatga ega, ga yaqin munosabatlari;",
+      "bilan birvaqtda, dan uzoq munosabatlari."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 123,
+    "subject": "Sun'iy intellekt",
+    "question": "GPS tizimi kimlar tomonidan yaratilgan?",
+    "options": [
+      "Nyuell va Saymon;",
+      "Nyuell va Kallok;",
+      "Saymon va Post;",
+      "Post va Rozenblat."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 124,
+    "subject": "Sun'iy intellekt",
+    "question": "Amaliy nuqtai nazaridan mahsulotni qoida-mahsulot ko'rinishda qanday juftliklar yordamida ifodalash mumkin?",
+    "options": [
+      "vaziyat>harakat; asoslar>xulosa; sabab>oqibat;",
+      "element>harakat; qism>butun; sabab>oqibat;",
+      "qism>butun; xulosa>sabab; sabab>oqibat;",
+      "element>sinf; argument>funksiya; sabab>oqibat;"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 125,
+    "subject": "Sun'iy intellekt",
+    "question": "Agar xodimda diplom va tajriba (T) ?????, u holda u ishga kiradi (IK) va bir maromda ishlaydi (ISH). Ushbu mulohaza uchun tuzilgan to'g'ri mahsyliy qoidani korsating?",
+    "options": [
+      "D?T>IK? ISH;",
+      "D?T>IK? ISH;",
+      "D?T>IK? ISH;;",
+      "IK? ISH >?? ?."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 126,
+    "subject": "Sun'iy intellekt",
+    "question": "Determinallashgan yadrolarda yadro faollashganda va A bajarilganda yadroning .......................................",
+    "options": [
+      "o`ng qismi albatta bajariladi;",
+      "o`ng qismi qisman bajariladi;",
+      "chap va ong qismi yolg'on bo'ladi;",
+      "chap qismi chin va ong qismi yolg'on bo'ladi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 127,
+    "subject": "Sun'iy intellekt",
+    "question": "Determinallashmagan yadrolarda A bajarilganda yadroning .......................................",
+    "options": [
+      "o`ng qismi bajarilishi yoki bajarilmasligi ham mumkin;",
+      "o`ng qismi albatta bajariladi;",
+      "o`ng qismi albatta bajarilmaydi;",
+      "chap qismi chin va ong qismi yolg'on bo'ladi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 128,
+    "subject": "Sun'iy intellekt",
+    "question": "Dinamik mahsuliy tizimlar qanday modullardan iborat bo'ladi?",
+    "options": [
+      "global ma'lumotlar bazasi; qoidalar-mahsulotlar to'plami; boshqarish tizimi yoki interpretator;",
+      "lokal ma'lumotlar bazasi; asoslar-xulosalar to'plami; boshqarish tizimi yoki interpretator;",
+      "global ma'lumotlar bazasi; elimemt -sinflar to'plami; bilimlar bazasi;",
+      "local bilimlar bazasi; qism -butunlar to'plami; bilimlarni hosil qilish bazasi;"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 129,
+    "subject": "Sun'iy intellekt",
+    "question": "To'g'ri xulosalashda izlash mahsulotning ......... tomonidan boshlanadi, ya'ni ............bajarilishidan bo'g'liq bo'lgan .............. faollashadi;",
+    "options": [
+      "chap; A ning; B mahsulotlar;",
+      "o'ng; A ning; B mahsulotlar;",
+      "chap; B ning; A mahsulotlar;",
+      "ong; B ning; A mahsulotlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 130,
+    "subject": "Sun'iy intellekt",
+    "question": "Teskari xulosalashda izlash mahsulotning ......... tomonidan boshlanadi, ya'ni ...............bajarilishi uchun zarur bo'lgan ...............qiymatlari izlanadi;",
+    "options": [
+      "o'ng; B shartning; A ning;",
+      "o'ng; A ning; B shartning;",
+      "chap; B shartning; A ning;",
+      "chap; A ning; B shartning."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 131,
+    "subject": "Sun'iy intellekt",
+    "question": "Freym termini ..................tomonidan taklif qilingan bo'lib, ................ kabi mazmunlarni bildiradi.",
+    "options": [
+      "1975-yilda M.Minskiy; paycha, panjara, ichki skelet;",
+      "1971-yilda M.Minskiy; tarmoq, qatlam, boshqarish;",
+      "1975-yilda Nyuell; paycha, panjara, ichki skelet;",
+      "1974-yilda M.Minskiy; tarmoq, qatlam, boshqarish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 132,
+    "subject": "Sun'iy intellekt",
+    "question": "Qandaydir obyekt, hodisa, vaziyat va jarayonning mohiyatini minimal tavsiflovchi mavhum timsolning modeli-bu....................",
+    "options": [
+      "freym;",
+      "slot;",
+      "exspert tizim;",
+      "tarmoq."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 133,
+    "subject": "Sun'iy intellekt",
+    "question": "\"Slot\" termini ................ kabi tushunchalarni anglatadi.",
+    "options": [
+      "teshik, kovak, tirqish, yoriq;",
+      "qiymat, nom, kovak, tirqish;",
+      "nom, aylana, munosabat, aloqa;",
+      "namuna, xulosa, mantiq, tatmoq."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 134,
+    "subject": "Sun'iy intellekt",
+    "question": "Slotlar(maydon)dan iborat ma'lumotlar strukturasi -bu..............",
+    "options": [
+      "freym;",
+      "qiymat;",
+      "nom;",
+      "namuna."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 135,
+    "subject": "Sun'iy intellekt",
+    "question": "Insonnig predmet soha haqidagi fikrlash jarayonini tasvirlovchi va haqiqiy olam obyektlarining ierarxiyasini yaxshi tizimlashtirishga imkoniyat yaratuvchi model -bu ...............",
+    "options": [
+      "freymli model;",
+      "matematik model;",
+      "statistik model;",
+      "analitik model."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 136,
+    "subject": "Sun'iy intellekt",
+    "question": "Freymning tuzilmasi to'g'ri keltirilgan javobni ko'rsating?",
+    "options": [
+      "Slot nomi [stot qiymati];",
+      "Ma'lumot turi, ma'lumot hajmi va formati;",
+      "Barcha javoblar to'g'ri;",
+      "Fryemda tuzilma mavjud bo'lmaydi;"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 137,
+    "subject": "Sun'iy intellekt",
+    "question": "Freymning konstruksiyda harflarning ma'nosi to'g'ri ko'rsatilgan javobni aniqlang.",
+    "options": [
+      "-freym nomi, -slot nomi, -slotning qiymati;",
+      "-slotning qiymati, -slot nomi, - freym nomi;",
+      "- freym nomi, -slot nomi, -slotning qiymati;",
+      "- slot nomi, - freym nomi, -slotning qiymati."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 138,
+    "subject": "Sun'iy intellekt",
+    "question": "Slot nomida maxsus ma'noga ega bo'lgan, ya'ni bilimlar bazasini tahrirlash va chiqarishni boshqarishda ishlatiladigan maxsus nomlar qaysi javobda to'g'ri keltirilgan?",
+    "options": [
+      "IS-A, HASPART, RELATIONS, FIND BY, COMMENT;",
+      "FRAME, INTEGER, REAL, IS-A, HASPART, RELATIONS;",
+      "FRAME, INTEGER, REAL, BOOL, Linked, TEXT;",
+      "LIST, TABLE, EXRRESSION, FIND BY, COMMENT."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 139,
+    "subject": "Sun'iy intellekt",
+    "question": "Attributlar (ma'lumotlar tipi) ko'rsatkichi qaysi javobda to'g'ri keltirilgan?",
+    "options": [
+      "FRAME, INTEGER, REAL, BOOL, Linked, TEXT, LIST, TABLE;",
+      "FRAME, SAME, REAL, HASPART, EXRRESSION, COMMENT;",
+      "UNIQUE, INTEGER, REAL, BOOL, EXRRESSION, COMMENT ;",
+      "RANGE, TABLE, EXRRESSION, COMMENT, REAL, BOOL."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 140,
+    "subject": "Sun'iy intellekt",
+    "question": "Freymlarni tashqi tasvirlashda slotga tushuntirishlarda qanday kengaytmali fayllardan foydalaniladi?",
+    "options": [
+      "(*.txt) yoki (*.bmp);",
+      "(*.pdf) yoki (*.bmp);",
+      "(*.ex yoki (*.bmp);",
+      "(*.txt) yoki (*.ex"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 141,
+    "subject": "Sun'iy intellekt",
+    "question": "To'ldirilmagan freym .............. va to'ldirilgan freym esa .............. deb ataladi?",
+    "options": [
+      "protofreym; ekzofreym;",
+      "ekzofreym; protofreym;",
+      "bo'sh; to'liq;",
+      "demon; slot."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 142,
+    "subject": "Sun'iy intellekt",
+    "question": "Slotlarining qiymatlari aniqlangan freym -bu ..................hisoblanadi",
+    "options": [
+      "freym ekzemplyari;",
+      "protofreym ekzemplyari;",
+      "ekzofreym ekzemplyari;",
+      "demon."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 143,
+    "subject": "Sun'iy intellekt",
+    "question": "Freym-ekzemplyarda slotlarning qiymatlarni olishining uslublari to'g'ri ko'rsatilgan javobni ko'rsating.",
+    "options": [
+      "slotda ko'rsatilgan formuladan, ma'lumotlar bazasidan va Default-qiymatdan foydalanib, birlashtirilgan protsedura yordamida;",
+      "matematik munosabatlar, matnlar, tarmoqlar, yoylar, tugunlar, protofreym ekzemplyarlardsi;",
+      "raqamlar, munosabatlar, matematik munosabatlar, matnlar, dasturlar, xulosalash qoidalari;",
+      "mavjud freym, boshqa freymlarning boshqa slotlariga havolalar, \"ichkima- ichki joylashish\"."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 144,
+    "subject": "Sun'iy intellekt",
+    "question": "Freymlarning turlari to'g'ri ko'rsatilgan javobni ko'rsating.",
+    "options": [
+      "freym-sinf, freymlar-rollar, freymlar-strukturalar, freymlar-senariylar, freymlar-vaziyatlar, freym-?????????, freym?-namuna;",
+      "freym-munosabatlar, freym-matnlar, freym-tarmoqlar, freym-sinf, freymlar- rollar, freym-?????????;",
+      "freym-?????????, freym-raqamlar, freym-munosabatlar, freym-matnlar, freym- dasturlar, freym-qoidalar;",
+      "freymlar-vaziyatlar, freym-?????????, freym?-namuna, freym-munosabatlar, freym-matnlar, freym-dasturlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 145,
+    "subject": "Sun'iy intellekt",
+    "question": ".........................-bu obyektlar va tushunchalarni (kiritma (zayem), garov, veksel) belgilash uchun foydalanish.",
+    "options": [
+      "Freymlar-strukturalar;",
+      "Freymlar-munosabatlar;",
+      "freymlar- raqamlar;",
+      "freymlar-dasturlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 146,
+    "subject": "Sun'iy intellekt",
+    "question": "........................-bu inqiroz, yig`ilish, aktsionerlar, bayramlarni o'qkazish kabilar uchun foydalanish.",
+    "options": [
+      "Freymlar-senariylar;",
+      "Freymlar-strukturalar;",
+      "freymlar- raqamlar;",
+      "freymlar-dasturlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 147,
+    "subject": "Sun'iy intellekt",
+    "question": "........................-bu menedjer, kassir, mijoz kabilar uchun foydalanish.",
+    "options": [
+      "Freymlar-rollar;",
+      "Freymlar-strukturalar;",
+      "Freymlar-senariylar;",
+      "freymlar-dasturlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 148,
+    "subject": "Sun'iy intellekt",
+    "question": "........................-bu predmet sohaning joriy holatini tavsivlovchi aniq freymdan foydalanish.",
+    "options": [
+      "Freym-?????????;",
+      "Freymlar-strukturalar;",
+      "Freymlar-senariylar;",
+      "Freymlar-rollar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 149,
+    "subject": "Sun'iy intellekt",
+    "question": "........................-bu predmet sohaning etarli holatlarini yoki obyektlarni tavsiflash uchun shablondan foydalanish.",
+    "options": [
+      "Freym?-namuna;",
+      "Freymlar-strukturalar;",
+      "Freymlar-senariylar;",
+      "Freym-?????????."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 150,
+    "subject": "Sun'iy intellekt",
+    "question": "........................-bu namunalar freymlarining majmuasini tasvirlash uchun yuqori darajadigi freymlardan foydalanish.",
+    "options": [
+      "Freym-sinf;",
+      "Freym?-namuna;",
+      "Freymlar-strukturalar;",
+      "Freym-?????????."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 151,
+    "subject": "Sun'iy intellekt",
+    "question": "Freymli modellarda freymlar o'rtasida ....................kabi munosabatlardan foydalaniladi.",
+    "options": [
+      "fazoli, dan iborat, qism-butun, vaqtli, atributli, sabab-oqibat, AKO- aloqalar, IS-A-aloqalar;",
+      "fazoli, dan uzoqroq, qism-butun, dan yaqinroq, vaqtli, atributli;",
+      "chin, ancha-muncha, asta-sekin, sabab-oqibat, AKO-aloqalar;",
+      "fazoli, pastda, yoqida, oldin, keyin, yolg'onroq, chinroq."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 152,
+    "subject": "Sun'iy intellekt",
+    "question": "Noravshan to'plamlar nazariyasi bo'yicha ilmiy ishlarning boshlanishi ......... tomonidan .......... yilda chop etilgan ilmiy maqolasi bilan bog'liq.",
+    "options": [
+      "L. Zade ; 1965;",
+      "Xomblad; 1975;",
+      "Ostergal; 1982;",
+      "Kosko; 1970."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 153,
+    "subject": "Sun'iy intellekt",
+    "question": "Fuzzy tushunchasi .................................kabi ma'nolarni bildiradi.",
+    "options": [
+      "noravshan, noqat'iy, notiniq;",
+      "noravshan, noaniq, tiniq;",
+      "ravshan, noto'liq, notiniq;",
+      "to'liqmas, qat'iy, notiniq."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 154,
+    "subject": "Sun'iy intellekt",
+    "question": "Noaniqlikning turlarini to'g'ri ko'rsating ?",
+    "options": [
+      "noma'lumlik, noishonchlilik, nobirqiymatlilik;",
+      "noma'lumlik, nochiziqlilik, birqiymatlilik;",
+      "noma'lumlik, notavakkallik, mantiqlilik;",
+      "nodaxtlilik, notarmoqlilik, nobirqiymatlilik."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 155,
+    "subject": "Sun'iy intellekt",
+    "question": "Fizik noaniqlikning turlarini to'g'ri ko'rsating ?",
+    "options": [
+      "tavakkallik, noaniqlik;",
+      "noma'lumlik, nochiziqlilik;",
+      "noma'lumlik, notavakkallik;",
+      "notarmoqlilik, nobirqiymatlilik."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 156,
+    "subject": "Sun'iy intellekt",
+    "question": "So'zlar qiymatlarining va frazalar ma'nosining noaniqligi- bu................",
+    "options": [
+      "lingvistik noaniqlik;",
+      "mantiqiy noaniqlik;",
+      "grafikli noaniqlik;",
+      "statistik noaniqlik."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 157,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlarning to'liq nabori uchun hosil qilingan xulosalashning haqiqiyligi yangi dalillarning qo'shilishi bilan o'zgarmasa -bu.....................",
+    "options": [
+      "monotonlik;",
+      "noaniqlik;",
+      "to'liqlilik;",
+      "qarama-qarshilik."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 158,
+    "subject": "Sun'iy intellekt",
+    "question": "Ma'lum xossalar bilan berilgan formulalar to'plami uchun boshlang'ich aksiomalar tizimi va xulosalash qoidalari ushbu to'plamga kiritilgan barcha formulalar uchun xulosalashni ta'minlasa -bu.......................",
+    "options": [
+      "to'liqlilik;",
+      "monotonlik;",
+      "noaniqlik;",
+      "qarama-qarshilik."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 159,
+    "subject": "Sun'iy intellekt",
+    "question": "Noravshan bilimlar orasida ..................... mavjud bo'lmaydi.",
+    "options": [
+      "qat'iy chegara;",
+      "noto'g'rilik;",
+      "noaniqlik;",
+      "nobirqiymatlilik."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 160,
+    "subject": "Sun'iy intellekt",
+    "question": "Matematika va haqiqiy olamda uchraydigan noaniqliklarning yaqinlashishi, insoniyatning fikrlash va anglash jarayonlarini yaxshi tushunish niyati amalga oshishi-bu .........................nazariyasi.",
+    "options": [
+      "noravshan to'plamlar;",
+      "mulohazalar algebrasi;",
+      "predikatlar mantiqi;",
+      "algebra."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 161,
+    "subject": "Sun'iy intellekt",
+    "question": "Noravshan yechish usullari qanday o'zgaruvchilardan foydalanishga asoslanadi?",
+    "options": [
+      "noravshan va lingvistik;",
+      "faqat sonli;",
+      "faqat mantiqiy;",
+      "faqat predikatli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 162,
+    "subject": "Sun'iy intellekt",
+    "question": "Mansublik funksiyasi - bu .......... bilan ifodalaniladigan tushunchaga ................mos bo`lishi darajasining sub'ektiv o`lchovi.",
+    "options": [
+      "noravshan to'plam; elementi;",
+      "noravshan to'plam; to'plam;",
+      "ravshan to'plam; elementi;",
+      "ravshan to'plam; elementi;"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 163,
+    "subject": "Sun'iy intellekt",
+    "question": "Lingvistik o'zgaruvchining strukturasini tavsivlash uchun quyidagi qanday qoidalardan foydalaniladi?",
+    "options": [
+      "Sintaktikli va semantikli qoidalardan;",
+      "Grafikli va semantikli qoidalardan;",
+      "Chiziqli va sintaktikli qoidalardan;",
+      "Statistik li va ehtimolli qoidalardan."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 164,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsol so?zi ... so?zdan olingan va ... kabi tushunchalarni bidiradi.",
+    "options": [
+      "inglizcha \"Pattern recognition\"; \"timsol\", \"model\", \"bog?liqlik\", \"uslub\";",
+      "nemischa \"Pattern recognition\"; \"timsol\", \"funksiy\", \"bolakli\", \"uslub\" ;",
+      "fransuzcha \"Pattern recognitio\"; \"timsol\", \"qoida\", \"uzlukli\", \"algoritm\" ;",
+      "grekcha\"Pattern recognit\"; \"timsol\", \"formula\", \"uzluksiz\", \"qoida\"."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 165,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsollarni anglashning asosiy vazifasi - bu obyektlarning bir-biriga ... o?rganishda ishlatiladigan, ya'ni ularning ... aniqlaydigan qaror qabul qiluvchi qoidalarni topishdan iborat.",
+    "options": [
+      "mosligini; o?xshashligini;",
+      "mos emasligini; moslik qoidalarini;",
+      "to?liqligini; kattaligini;",
+      "qarashliligini; kichikligini."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 166,
+    "subject": "Sun'iy intellekt",
+    "question": "Obyektlarni anglash uchun ... foydalaniladi.",
+    "options": [
+      "muhim belgilardan;",
+      "barcha belgilardan;",
+      "bir xil belgilardan;",
+      "yopiluvchi belgilardan."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 167,
+    "subject": "Sun'iy intellekt",
+    "question": "Sinf - bu ... xususiyatga ega bo?lgan ... to?plamidir.",
+    "options": [
+      "umumiy; obyektlar;",
+      "diametr; to?rtburchaklar;",
+      "harorat; raqamlar;",
+      "og?rlik; harflar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 168,
+    "subject": "Sun'iy intellekt",
+    "question": "Obyektlar haqida empirik ma'lumotlar ........... yordamida aniqlanadi.",
+    "options": [
+      "tajriba;",
+      "ekspert;",
+      "foydalanuvchi;",
+      "kompyuter."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 169,
+    "subject": "Sun'iy intellekt",
+    "question": "Obyektlar haqidagi ma'lumotlarni o?rganish ...........topishga asoslanadi.",
+    "options": [
+      "obyektlarni belgilariga asosan o?rganish, ya'ni obyektlar uchun xos bo?lgan asosiy belgilarni;",
+      "obyektlar uchun xos bo?lmagan asosiy belgilarni;",
+      "obyektlar uchun chegaraviysharti bo?lgan asosiy belgilarni;",
+      "obyektlar uchun boshlang?ichsharti bo?lmagan asosiy belgilarni."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 170,
+    "subject": "Sun'iy intellekt",
+    "question": "O?qituvchi yordamida o?rganishda ................ soni va obyektlarning qaysi sinfga qarashliligi oldindan berilgan bo?ladi.",
+    "options": [
+      "sinflar, obyektlar, belgilar;",
+      "belgilar, qoidalar, sinflar;",
+      "obyektlar, etalonlar, qoidalar;",
+      "sinflar, qoidalar, masofalar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 171,
+    "subject": "Sun'iy intellekt",
+    "question": "O?qituvchisiz o?rganishda ............. soni oldindan berilgan va obyektlarning qaysi sinfga qarashliligi oldindan berilmagan bo?ladi.",
+    "options": [
+      "obyektlar, belgilar;",
+      "belgilar, qoidalar;",
+      "obyektlar, qoidalar;",
+      "qoidalar, masofalar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 172,
+    "subject": "Sun'iy intellekt",
+    "question": "Qaror qabul qiluvchi qoidani qurish .............. aniqlashga asoslanadi.",
+    "options": [
+      "o?qituvchi yoki o?qituvchisiz o?rganish jarayonida obyektlarga xos bo?lgan asosiy belgilar tizimini;",
+      "o?qituvchi yordamida o?rganish jarayonida idrok etishni;",
+      "o?qituvchisiz o?rganish jarayonida etalon tanlovni;",
+      "o?zini-o?zi o?rganish jarayonida etalon tanlovni."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 173,
+    "subject": "Sun'iy intellekt",
+    "question": "Obyektlarni anglash etalon tanlovdagi .............. aniqlashga asoslanadi.",
+    "options": [
+      "obyektlarni o?rganish jarayonida hosil qilingan qaror qabul qiluvchi qoida yordamida yangi obyektlarning qaysi sinflarga qarashli ekanligini;",
+      "to?liq bo?lmagan muhim belgilarini;",
+      "to?liq bo?lgan etalon tanlovdagi o?xshash sinflarni;",
+      "to?liq bo?lgan obyektlarini."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 174,
+    "subject": "Sun'iy intellekt",
+    "question": "Obyektlarni anglashni o?rgatish nazariyasi usullarining keng qo?llanilishi qanday xususiyatlarga asoslanadi?",
+    "options": [
+      "o?rganiluvchi obyektlarning murakkabligi, ya'ni ularning ko?plab sohalarga egaligi, obyektlar haqida to?liq ma'lumotlarning yetishmasligi;",
+      "o?rganiluvchi obyektlarning oddiyligi, ya'ni ularning ko?plab sohalarga ega emasligi, obyektlar haqida to?liq ma'lumotlarning yetishmasligi;",
+      "o?rganiluvchi obyektlarning murakkabligi, ya'ni ularning ko?plab sohalarga egaligi, obyektlar haqida to?liq ma'lumotlarning mavjudligi;",
+      "o?rganiluvchi obyektlarning oddiyligi, ya'ni ularning ko?plab sohalarga egaligi, obyektlar haqida to?liq ma'lumotlarning mavjudligi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 175,
+    "subject": "Sun'iy intellekt",
+    "question": "Obyektlarni anglashni o?rgatishning asosiy muammosi - bu qaror qabul qiluvchi qoidani ... aniqlashdan iborat.",
+    "options": [
+      "qurish va bu qoida yordamida obyektlarni talab etilgan ishonchlilik bilan oldindan ma'lum bo?lgan sinflarga qarashliligini;",
+      "qurish va bu qoida yordamida sinflarni talab etilgan ishonchlilik bilan oldindan ma'lum bo?lgan obyektlarga qarashliligini;",
+      "qurmasdan, obyektlarni talab etilgan ishonchlilik bilan oldindan ma'lum bo?lgan sinflarga qarashliligini;",
+      "qurish va bu qoida yordamida sinflarni talab etilgan ishonchlilik bilan oldindan ma'lum bo?lgan sinflarga qarashliligini."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 176,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsollarni anglovchi tizimlarni yaratishda eng asosiy masalalardan biri - bu .................... xossalarini aniqlashdan iborat.",
+    "options": [
+      "obyektlarning;",
+      "etalonlarning;",
+      "qaror qabul qiluvchi qoidalarning;",
+      "to?plamlarning."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 177,
+    "subject": "Sun'iy intellekt",
+    "question": "Determinalli belgilar .................. qiymatlarga ega bo?ladi.",
+    "options": [
+      "aniq va sonli;",
+      "chin;",
+      "ehtimolli;",
+      "simvolli."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 178,
+    "subject": "Sun'iy intellekt",
+    "question": "Etimolli belgilar .................. qiymatlarga ega bo?ladi.",
+    "options": [
+      "tavakkali;",
+      "yolg?on;",
+      "chin;",
+      "aniq."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 179,
+    "subject": "Sun'iy intellekt",
+    "question": "Mantiqiy belgilar ................ qiymatlarga ega bo?ladi.",
+    "options": [
+      "chin yoki yolg?on;",
+      "tavakkali;",
+      "simvolli;",
+      "uzluksiz."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 180,
+    "subject": "Sun'iy intellekt",
+    "question": "Strukturali belgilar ................ ko?rinishidagi obyektlarda uchraydi.",
+    "options": [
+      "simvol va tasvir;",
+      "faqat simvol va raqam;",
+      "faqat tasvir va harf;",
+      "faqat harf va raqam."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 181,
+    "subject": "Sun'iy intellekt",
+    "question": "Sinflashtirish - bu ... asosida sinflarga bo?lish.",
+    "options": [
+      "obyektlarni belgilar;",
+      "obyektlarni etalon tanlov;",
+      "etalon tanlovni erkin tanlov;",
+      "harflarni erkin tanlov."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 182,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsollarni anglovchi tizimlarni turlarga bo?lishning 1- tamoyilda ................ ekanligi e'tiborga olinadi.",
+    "options": [
+      "belgilarning fizik tabiati bir xilda yoki ko?p xilda;",
+      "obyektlarning fizik tabiati bir xilda yoki ko?p xilda;",
+      "sinflarning fizik tabiati bir xilda yoki ko?p xilda;",
+      "tizimning fizik tabiati bir xilda yoki ko?p xilda."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 183,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsollarni anglovchi oddiy tizimlar obyektlardagi ................ fizik tabiati bo?yicha bir xildaligi bilan xarakterlanadi.",
+    "options": [
+      "belgilarning;",
+      "qoidalarning;",
+      "uzilishlarning;",
+      "to?liqlikning."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 184,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsollarni anglovchi murakkab tizimlar obyektlardagi ................ fizik tabiati bo?yicha ko?pxildaligi bilan xarakterlanadi.",
+    "options": [
+      "belgilarning;",
+      "qoidalarning;",
+      "uzliksizlikning;",
+      "to?liqlikning."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 185,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsollarni anglovchi bir pog?onali tizimlarda ..... haqidagi ma'lumotlar o?rganilayotgan obyektlardan to?g?ridan-to?g?ri o?lchash natijasida olinadi.",
+    "options": [
+      "belgilar;",
+      "qaror qabul qiluvchi qoidalar;",
+      "chiziqli qoidalar;",
+      "mantiqli qoidalar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 186,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsollarni anglovchi ko?p pog?onali tizimlarda ................ haqidagi ma'lumotlar o?rganilayotgan obyektlardan nisbiy o?lchash natijasida olinadi.",
+    "options": [
+      "belgilar;",
+      "sinflar;",
+      "tizimlar;",
+      "bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 187,
+    "subject": "Sun'iy intellekt",
+    "question": "O?zini-o?zi o?qituvchi tizimlarda ................ ro?yxati berilgan bo?ladi.",
+    "options": [
+      "obyektlar to?plami va belgilar;",
+      "sinflar to?plami va obyektlar;",
+      "qoidalar to?plami va sinflar;",
+      "obyektlar to?plami va sinflar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 188,
+    "subject": "Sun'iy intellekt",
+    "question": "Timsollarni anglovchi tizimlarni turlarga bo?lishning 4- tamoyilda ................ haqidagi ma'lumotlarning xarakterlarini o?rganish e'tiborga olinadi.",
+    "options": [
+      "obyektlarni anglashda belgilar;",
+      "belgilarni sinflashda obyektlar;",
+      "qoidalarni bo?laklashda obyektlar;",
+      "tizimlarni o?rganishda qoidalar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 189,
+    "subject": "Sun'iy intellekt",
+    "question": "1, 2, 3, 4, 5, 6 belgilar to?plamlamin tadan guruhlaganda nechta tayanch to?plam ostilari hosil bo?ladi ?",
+    "options": [
+      "20;",
+      "28;",
+      "36;",
+      "15."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 190,
+    "subject": "Sun'iy intellekt",
+    "question": "Maxmin algoritmining maqsadi - ................ yadroviy obyektlarni topish va bu obyektlar yordamida sinflarni hosil qilish.",
+    "options": [
+      "erkin tanlovdan N ta;",
+      "etalon tanlovdan;",
+      "etalon tanlovdan 2 ta;",
+      "erkin tanlovdan 2 ta."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 191,
+    "subject": "Sun'iy intellekt",
+    "question": "Maxmin algoritmida yadrolar orasidagi bo?sag?a sifatida qanday qiymat olinadi ?",
+    "options": [
+      "yadrolar orasidagi masofaning yarmi olinadi;",
+      "yadrolar orasidagi masofa olinadi;",
+      "yadrodan eng uzoqda joylashgan yadroning qiymati olinadi;",
+      "yadrolar orasidagi masofaning kvadrati olinadi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 192,
+    "subject": "Sun'iy intellekt",
+    "question": "Maxmin algoritmida sinflar soni qanday aniqlanadi ?",
+    "options": [
+      "yadrolar yordamida;",
+      "oldindan beriladi;",
+      "belgilar yordamida;",
+      "moslik qoidalar asosida."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 193,
+    "subject": "Sun'iy intellekt",
+    "question": "Maxmin algoritmi o?z ishini to?xtatadi, agarda ................",
+    "options": [
+      "yadrolar va sinflar o?zgarmasdan qolsa;",
+      "sinflar kesishmasa;",
+      "yadrolar soni sinflar sonidan ko?p bo?lsa;",
+      "sinflar o?zgarmasdan yadrolar o?zgarsa."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 194,
+    "subject": "Sun'iy intellekt",
+    "question": "?ksp?rt tizim nim??",
+    "options": [
+      "Bliml?rg? ?s?sl?ng?n ?m?liy mul?q?t tizimi;",
+      "Am?liy matematik paket;",
+      "M?'lum?tl?r b?z?sini b?shq?rish tizimi;",
+      "Faqat formulalarga ?s?sl?ng?n tizim."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 195,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlar injeneri o`zgartiradigan bilimlar-bu...................bilimlar hisoblanadi.",
+    "options": [
+      "izohlanuvchi;",
+      "izohlanmaydigan;",
+      "texnologik;",
+      "yordamchi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 196,
+    "subject": "Sun'iy intellekt",
+    "question": "Joriy holatga mos keluvchi bilimlarni izohlash usullarini tanlash uchun qo`llaniluvchi bilimlar-bu .................. hisoblanadi.",
+    "options": [
+      "yechuvchi bilimlar ;",
+      "predmetli bilimlar;",
+      "izohlanuvchi;",
+      "yordamchi."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 197,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlar tizimini yaratishda va tushuntirishlarni bajarishda qo`llaniladigan bilimlar-bu .................. hisoblanadi.",
+    "options": [
+      "qo`llab - quvvatlovchi ;",
+      "predmetli bilimlar;",
+      "izohlanuvchi;",
+      "yechuvchi bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 198,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimning yaratilgan vaqti, bilimlar muallifi va boshqalar haqidagi ma'lumotlarni saqlaydigan bilimlar-bu .................. hisoblanadi",
+    "options": [
+      "texnologik bilimlar ;",
+      "predmetli bilimlar;",
+      "qo`llab - quvvatlovchi;",
+      "yechuvchi bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 199,
+    "subject": "Sun'iy intellekt",
+    "question": "Bilimlarning mazmunli tasvirlanishi, bilimlarni kiritish sabablari, bilimlarning belgilanishi haqidagi bilimlarni saqlaydigan, bilimlardan foydalanish usullari va olinadigan samarani tasvirlaydigan bilimlar-bu .................. hisoblanadi",
+    "options": [
+      "semantik bilimlar ;",
+      "texnologik bilimlar;",
+      "predmetli bilimlar;",
+      "yechuvchi bilimlar."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 200,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimda ishchi xotiradagi boshlang`ich ma'lumotlar va bilimlar bazasidagi bilimlardan foydalanib, shunday qoidalar ketma-ketligini shakllantiradigan, ularni boshlang`ich ma'lumotlarga qo`llab masalaning yechimiga olib keladigan komponent-bu .................. hisoblanadi",
+    "options": [
+      "yechuvchi (bilimlar injeneri);",
+      "ishchi xotira;",
+      "tushuntiruvchi komponent;",
+      "muloqotli komponent."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 201,
+    "subject": "Sun'iy intellekt",
+    "question": "Foydalanuvchi - ekspert tomonidan amalga oshiriluvchi bilimlar bilan ekspert tizimni to`ldirish jarayonini avtomatlashtiradigan komponent-bu ............... hisoblanadi.",
+    "options": [
+      "bilimlarni hosil qilish;",
+      "ishchi xotira;",
+      "yechuvchi (bilimlar injeneri);",
+      "muloqotli komponent."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 202,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimni yaratishda yechimini kutayotgan masalalarni aniqlash, ekspert tizimni ishlab chiqishning maqsadi, expertlar va foydalanuvchi tiplarini aniqlash....................bosqichida bajariladi.",
+    "options": [
+      "idenfikatsiyalash;",
+      "formallashtirish;",
+      "bajarish;",
+      "testdan o'tkazish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 203,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimni yaratishda muammo sohasining tarkibiy tahlilini o`tkazish, qo`llaniluvchi tushunchalar va ularning o`zaro aloqasi aniqlash, masalaning yechilish usulini belgilash.....................bosqichida bajariladi.",
+    "options": [
+      "kontseptuallashtirish ;",
+      "formallashtirish;",
+      "idenfikatsiyalash;",
+      "testdan o'tkazish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 204,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimni yaratishda asosiy tushunchalarni shakllantirish, texnik vositalarni tanlash, bilimlarni namoyish etish va izohlash usullarini aniqlash, tizimning ishini modellashtirish......................bosqichida bajariladi.",
+    "options": [
+      "formallashtirish;",
+      "kontseptuallashtirish;",
+      "idenfikatsiyalash;",
+      "testdan o'tkazish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 205,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimni yaratishda ekspert tomonidan bilimlar bazasini to`ldirishni amalga oshirish......................bosqichida bajariladi.",
+    "options": [
+      "bajarish;",
+      "kontseptuallashtirish;",
+      "idenfikatsiyalash;",
+      "formallashtirish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 206,
+    "subject": "Sun'iy intellekt",
+    "question": "Ekspert tizimlar tashqi muhitga bog`liqlik darajasiga qarab ............. ekspert tizimlarga bo'linadi.",
+    "options": [
+      "statik va dinamik;",
+      "umumiy vazifani bajaruvchi va kontseptuallashtirilgan;",
+      "umumiy vazifani bajaruvchi va idenfikatsiyalashtirilgan;",
+      "formallashtirilgan va maxsuslashtirilgan."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 207,
+    "subject": "Sun'iy intellekt",
+    "question": "Genetik algoritm - bu ................. ................algoritmi.",
+    "options": [
+      "evristik qidiruv;",
+      "evristik qo'shish;",
+      "jadvalli o'chirish;",
+      "minimumni qidiruv."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 208,
+    "subject": "Sun'iy intellekt",
+    "question": "........................- bu tabiatdagi tabiiy seleksiyalashga o'xshash mexanizmlardan foydalanib, kerakli parametrlarni tasodifiy tanlab olish, birlashtirish va o'zgartirish orqali optimallashtirish va modellashtirish muammolarini hal qilish uchun ishlatiladigan evristik qidiruv algoritmi.",
+    "options": [
+      "Genetik algoritm;",
+      "Evolyutsion dasturlash;",
+      "Evolyutsion strategiyalar;",
+      "Genetik dasturlash."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 209,
+    "subject": "Sun'iy intellekt",
+    "question": "....................... - bu cheklangan xromosoma (zot)lar to'plami.",
+    "options": [
+      "Populyatsiya;",
+      "Alel;",
+      "Gen;",
+      "Genotip."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 210,
+    "subject": "Sun'iy intellekt",
+    "question": "................- bu irsiy ma'lumotlarning tashuvchisi.",
+    "options": [
+      "Xromosoma;",
+      "Alel;",
+      "lokus;",
+      "Genotip."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 211,
+    "subject": "Sun'iy intellekt",
+    "question": "........... - bu genotipning atomar elementi, xususan xromosomalar hisoblanadi..",
+    "options": [
+      "Gen;",
+      "Xromosoma;",
+      "lokus;",
+      "Individ."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 212,
+    "subject": "Sun'iy intellekt",
+    "question": "............... operator - bu avlodni olish uchun zarur bo'lgan bir yoki bir nechta ota-onalarga nisbatan tartiblangan harakatlar ketma-ketligi.",
+    "options": [
+      "Genetik;",
+      "Evolyutsion;",
+      "Strategik;",
+      "Individual."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 213,
+    "subject": "Sun'iy intellekt",
+    "question": "................ - xromosomalar to'plami.",
+    "options": [
+      "Individ;",
+      "Alel;",
+      "lokus;",
+      "Gen."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 214,
+    "subject": "Sun'iy intellekt",
+    "question": "............. - bu ma'lum bir individning xromosomalar to'plami hisoblanadi.",
+    "options": [
+      "Genotip;",
+      "Individ;",
+      "Alel;",
+      "lokus."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 215,
+    "subject": "Sun'iy intellekt",
+    "question": "..............- bu ma'lum bir genotipga mos keladigan qiymatlar to'plami, ya'ni. masala parametrlarining dekodlangan tuzilmasi yoki to'plami..",
+    "options": [
+      "Fenotip;",
+      "Individ;",
+      "Alel;",
+      "Genotip."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 216,
+    "subject": "Sun'iy intellekt",
+    "question": "............- bu ma'lum bir genning qiymati, shuningdek xususyatning qiymati yoki xususiyatning bir varianti sifatida aniqlanadi.",
+    "options": [
+      "Allel;",
+      "Fenotip;",
+      "Individ;",
+      "Genotip."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 217,
+    "subject": "Sun'iy intellekt",
+    "question": "............. - bu ma'lum bir genning xromosoma(zanjir)da joylashgan joyini ko'rsatadi..",
+    "options": [
+      "Lokus;",
+      "Allel;",
+      "Fenotip;",
+      "Individ."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 218,
+    "subject": "Sun'iy intellekt",
+    "question": "................................... - bu genetikaga xos bo'lib, u populyatsiyadagi muayyan individlarning jismoniy tayyorgarligini baholash va eng munosiblarini tirik qolish evolyutsion prinsipiga muvofiq ular orasida eng munosibini tanlashga imkon beradi.",
+    "options": [
+      "Moslanuvchanlik funksiyasi;",
+      "Genetik operator;",
+      "Fenotip;",
+      "Individ."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 219,
+    "subject": "Sun'iy intellekt",
+    "question": "Xromosomalarning boshlang'ich populyatsiyasini yaratish - bu moslanuvchanlik funksiyasi parametrlarining qiymatlari .......................va ushbu parametr qiymatlari uchun moslanuvchanlik funksiyasi qiymati .............. holat.",
+    "options": [
+      "tasodifiy tanlangan; topilgan;",
+      "tasodifiy tanlangan; topilmagan;",
+      "tasodifiy tanlanmagan; topilgan;",
+      "tasodifiy tanlanmagan; topilmagan."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 220,
+    "subject": "Sun'iy intellekt",
+    "question": "Genetik algoritmning asosiy bloklari ketma-ketligi to'g'ri keltirilgan javobni ko'rsating?",
+    "options": [
+      "Initsializatsiyalash, baholash, seleksiyalash, chatishtiruv, mutatsiyalash;",
+      "baholash, seleksiyalash, chatishtiruv, initsializatsiyalash, mutatsiyalash;",
+      "seleksiyalash, initsializatsiyalash, baholash, chatishtiruv, mutatsiyalash;",
+      "mutatsiyalash, initsializatsiyalash, baholash, seleksiyalash, chatishtiruv."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 221,
+    "subject": "Sun'iy intellekt",
+    "question": "Initsializatsiyalash - tasodifiy ravishda .............",
+    "options": [
+      "dastlabki xromosomalarning populyatsiyasini shakllantirish;",
+      "olingan xromosomalarning yaroqliligini aniqlash;",
+      "yaroqli baholash qiymatlariga ega bo`lgan xromosomalar tanlab olish;",
+      "xromosomalarning tasodifiy sonini saralab olish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 222,
+    "subject": "Sun'iy intellekt",
+    "question": "Baholash -........................................................................... ..",
+    "options": [
+      "olingan xromosomalarning yaroqliligini aniqlash;",
+      "dastlabki xromosomalarning populyatsiyasini shakllantirish;",
+      "yaroqli baholash qiymatlariga ega bo`lgan xromosomalar tanlab olish;",
+      "xromosomalarning tasodifiy sonini saralab olish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 223,
+    "subject": "Sun'iy intellekt",
+    "question": "Seleksiyalash -..................................................................",
+    "options": [
+      "yaroqli baholash qiymatlariga ega bo`lgan xromosomalar tanlab olish;",
+      "dastlabki xromosomalarning populyatsiyasini shakllantirish;",
+      "olingan xromosomalarning yaroqliligini aniqlash;",
+      "xromosomalarning tasodifiy sonini saralab olish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 224,
+    "subject": "Sun'iy intellekt",
+    "question": "Chatishtiruv -",
+    "options": [
+      "xromosomalarning tasodifiy sonini saralab olish;",
+      "dastlabki xromosomalarning populyatsiyasini shakllantirish;",
+      "olingan xromosomalarning yaroqliligini aniqlash;",
+      "yaroqli baholash qiymatlariga ega bo`lgan xromosomalar tanlab olish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 225,
+    "subject": "Sun'iy intellekt",
+    "question": "Mutatsiyalash -................................................................",
+    "options": [
+      "xromosomaning bir genini(bitini) o`zgartiradi;",
+      "dastlabki xromosomalarning populyatsiyasini shakllantirish;",
+      "olingan xromosomalarning yaroqliligini aniqlash;",
+      "yaroqli baholash qiymatlariga ega bo`lgan xromosomalar tanlab olish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 226,
+    "subject": "Sun'iy intellekt",
+    "question": "................. - xromosoma kodi qismlarini kelish tartibini o'zgartirish bo'lib, bunda tasodifiy ravishda xromosoma kodidagi qo'shni bitlar orasida uzilish nuqtasi tanlanadi.",
+    "options": [
+      "Inversiyalash;",
+      "Mutatsiyalash;",
+      "Chatishtiruv;",
+      "Seleksiyalash."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 227,
+    "subject": "Sun'iy intellekt",
+    "question": "................... masala prametrlarining berilgan boshlang'ich qiymatlarini emas, balki ularning kodlashtirilgan qiymatlarini qayta ishlaydi.",
+    "options": [
+      "Genetik algoritmlar;",
+      "An'anaviy optimallashtirish usullari;",
+      "Ekspert tizimlar;",
+      "Dinamik programmalashtirish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 228,
+    "subject": "Sun'iy intellekt",
+    "question": "................... echimni bitta nuqtadan emas, balki ularning ma'lum bir populyatsiyasidan qidirishni amalga oshiradi.",
+    "options": [
+      "Genetik algoritmlar;",
+      "An'anaviy dasturlash;",
+      "Ekspert tizimlar;",
+      "Chiziqli programmalashtirish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 229,
+    "subject": "Sun'iy intellekt",
+    "question": "................... maqsad funksiyasining hosilalari yoki boshqa qo'shimcha ma'lumotlaridan emas, balki faqat maqsad funksiyasining o'zidan foydalanadi.",
+    "options": [
+      "Genetik algoritmlar;",
+      "Statistik usullar;",
+      "Noravshan tizimlar;",
+      "Chiziqli programmalashtirish."
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 230,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kiberxavfsizlik tushunchasi nimani anglatadi?",
+    "options": [
+      "Axborot tizimlarini ruxsatsiz kirishdan, hujumlardan va shikastlanishdan himoyalash",
+      "Faqat kompyuterlarni viruslardan tozalash",
+      "Internet tezligini oshirish",
+      "Dasturiy ta'minotni yangilash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 231,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Axborot xavfsizligining uchta asosiy tamoyili qaysi?",
+    "options": [
+      "Konfidensiallik, yaxlitlik, foydalanuvchanlik",
+      "Tezlik, ishonchlilik, arzonlik",
+      "Shifrlash, autentifikatsiya, avtorizatsiya",
+      "Tarmoq, server, ma'lumot"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 232,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Konfidensiallik (maxfiylik) tushunchasi nimani anglatadi?",
+    "options": [
+      "Ma'lumotlarning faqat ruxsat etilgan shaxslarga ochiq bo'lishi",
+      "Ma'lumotlarning doimo mavjud bo'lishi",
+      "Ma'lumotlarning o'zgartirilmasligi",
+      "Ma'lumotlarning shifrlangan holda saqlanishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 233,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Yaxlitlik (butunlik) tushunchasi nimani anglatadi?",
+    "options": [
+      "Ma'lumotlarning ruxsatsiz o'zgartirilmasligini ta'minlash",
+      "Ma'lumotlarni faqat ma'lum shaxslar ko'ra olishi",
+      "Ma'lumotlarning doimo foydalanish mumkin bo'lishi",
+      "Ma'lumotlarning zaxira nusxasi mavjudligi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 234,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Foydalanuvchanlik (availability) tushunchasi nimani anglatadi?",
+    "options": [
+      "Axborot va resurslarning kerakli vaqtda foydalanishga tayyor bo'lishi",
+      "Ma'lumotlarni shifrlash imkoniyati",
+      "Foydalanuvchilarni identifikatsiya qilish",
+      "Tarmoqqa ulanish tezligi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 235,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risk tushunchasi kiberxavfsizlikda nimani bildiradi?",
+    "options": [
+      "Tahdid va zaiflikning birgalikda keltiradigan ehtimoliy zarari",
+      "Faqat viruslar tomonidan keltirilgan zarar",
+      "Tarmoq uzilishi ehtimoli",
+      "Parolning murakkablik darajasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 236,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Tahdid (threat) nima?",
+    "options": [
+      "Axborot xavfsizligiga zarar yetkazishi mumkin bo'lgan potensial xavf",
+      "Tizimning zaif tomoni",
+      "Himoya vositasi",
+      "Xavfsizlik siyosati"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 237,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Zaiflik (vulnerability) nima?",
+    "options": [
+      "Tizimning tahdidlar tomonidan foydalanilishi mumkin bo'lgan kuchsiz tomoni",
+      "Hujum turi",
+      "Himoya usuli",
+      "Kriptografik algoritm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 238,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Aktiv (asset) kiberxavfsizlikda nimani bildiradi?",
+    "options": [
+      "Tashkilot uchun qiymatga ega bo'lgan axborot yoki resurs",
+      "Hujumchining foydalanish vositasi",
+      "Xavfsizlik duvori",
+      "Tarmoq protokoli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 239,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Hujumchi kabi fikrlash (attacker mindset) nima uchun muhim?",
+    "options": [
+      "Tizimning zaif tomonlarini topish va ularni oldindan bartaraf etish uchun",
+      "Hujum qilishni o'rganish uchun",
+      "Boshqa hujumchilarni topish uchun",
+      "Virus yaratish uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 240,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Tizimli fikrlash kiberxavfsizlikda qanday ahamiyatga ega?",
+    "options": [
+      "Barcha xavfsizlik komponentlarini yaxlit tizim sifatida ko'rib chiqish imkonini beradi",
+      "Faqat bitta komponentni himoyalashga yordam beradi",
+      "Dasturlash tillarini o'rganishga yordam beradi",
+      "Tarmoq tezligini oshirishga imkon beradi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 241,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Boshqarish vositasi (control) kiberxavfsizlikda nima?",
+    "options": [
+      "Riskni kamaytirish uchun qo'llaniladigan himoya choralari",
+      "Kompyuterni boshqarish dasturi",
+      "Ma'lumotlar bazasi",
+      "Operatsion tizim"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 242,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risk darajasi qanday aniqlanadi?",
+    "options": [
+      "Tahdid ehtimoli va keltiradigan zarar miqdorining ko'paytmasi orqali",
+      "Faqat zarar miqdori bo'yicha",
+      "Faqat hujum soni bo'yicha",
+      "Foydalanuvchilar soni bo'yicha"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 243,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risk matritsasi nima?",
+    "options": [
+      "Risklarni ehtimollik va ta'sir darajasiga ko'ra tasniflash vositasi",
+      "Ma'lumotlar bazasi jadvali",
+      "Shifrlash algoritmi",
+      "Tarmoq diagrammasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 244,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risklarni boshqarishning asosiy bosqichlari qaysi?",
+    "options": [
+      "Aniqlash, baholash, qayta ishlash, monitoring",
+      "Shifrlash, saqlash, uzatish",
+      "O'rnatish, sozlash, ishga tushirish",
+      "Hujum, himoya, tekshirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 245,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risklarni qabul qilish strategiyasi nimani anglatadi?",
+    "options": [
+      "Risk mavjudligini tan olish va uni kamaytirishga sarflanmaydigan holat",
+      "Riskni boshqa tashkilotga o'tkazish",
+      "Riskni to'liq bartaraf etish",
+      "Riskni e'tiborsiz qoldirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 246,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risklarni boshqa tashkilotga o'tkazish qanday amalga oshiriladi?",
+    "options": [
+      "Sug'urta polisi sotib olish orqali",
+      "Ma'lumotlarni o'chirish orqali",
+      "Parollarni o'zgartirish orqali",
+      "Tarmoqni o'chirish orqali"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 247,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RMIS (Risk Management Information Systems) nima?",
+    "options": [
+      "Risklarni boshqarish axborot tizimlari",
+      "Tarmoq xavfsizligi protokoli",
+      "Shifrlash standarti",
+      "Autentifikatsiya usuli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 248,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risk chastotasi nimani ko'rsatadi?",
+    "options": [
+      "Ma'lum vaqt oralig'ida risk hodisasining sodir bo'lish tezligini",
+      "Riskdan keladigan zarar miqdorini",
+      "Himoya vositalarining sonini",
+      "Foydalanuvchilar sonini"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 249,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risklarni kamaytirish strategiyasi nimani nazarda tutadi?",
+    "options": [
+      "Himoya choralari qo'llash orqali risk ehtimoli yoki ta'sirini pasaytirish",
+      "Riskni butunlay yo'q qilish",
+      "Riskni e'tiborsiz qoldirish",
+      "Tizimni o'chirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 250,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risklarni boshqarishda muhim ko'rsatkichlar (KRI) nima?",
+    "options": [
+      "Risk holatini kuzatib borish uchun ishlatiladigan o'lchov mezonlari",
+      "Shifrlash kalitining uzunligi",
+      "Tarmoq tezligining o'lchovi",
+      "Ma'lumotlar bazasining hajmi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 251,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risklarni boshqarish freymvorki nima?",
+    "options": [
+      "Risklarni tizimli ravishda boshqarish uchun belgilangan yondashuv va qoidalar to'plami",
+      "Dasturlash tili",
+      "Operatsion tizim",
+      "Ma'lumotlar bazasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 252,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risk baholashda sifat (kvalitativ) usuli nimani nazarda tutadi?",
+    "options": [
+      "Risklarni yuqori, o'rta, past kabi toifalarga bo'lish",
+      "Riskni aniq raqamlar bilan hisoblash",
+      "Risklarni avtomatik aniqlash",
+      "Risklarni dasturiy ta'minot orqali boshqarish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 253,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Risk baholashda miqdor (kvantitativ) usuli nimani nazarda tutadi?",
+    "options": [
+      "Riskni aniq pul yoki raqam ko'rsatkichlari bilan hisoblash",
+      "Risklarni yuqori va past deb baholash",
+      "Faqat texnik mutaxassislar fikriga tayanish",
+      "Riskni e'tiborsiz qoldirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 254,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ichki kiberjinoyat nima?",
+    "options": [
+      "Tashkilot ichidagi xodim tomonidan sodir etiladigan kiberjinoyat",
+      "Internet orqali tashqaridan qilingan hujum",
+      "Davlat tomonidan amalga oshirilgan hujum",
+      "Viruslar orqali tarqalgan jinoyat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 255,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Tashqi kiberjinoyat nima?",
+    "options": [
+      "Tashkilot tashqarisidagi shaxslar tomonidan sodir etiladigan kiberjinoyat",
+      "Xodim tomonidan sodir etilgan jinoyat",
+      "Dasturiy xato",
+      "Tizim nosozligi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 256,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "O'zbekiston Respublikasining \"Kiberxavfsizlik to'g'risida\"gi qonuni qachon qabul qilingan?",
+    "options": [
+      "2022-yilda",
+      "2018-yilda",
+      "2025-yilda",
+      "2015-yilda"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 257,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kiberetika nimani o'rganadi?",
+    "options": [
+      "Axborot texnologiyalari sohasidagi axloqiy me'yorlar va qoidalarni",
+      "Faqat dasturlash tillarini",
+      "Kompyuter qurilmalarini ta'mirlashni",
+      "Tarmoq tezligini oshirishni"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 258,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Raqamli kriminalistika (digital forensics) nima?",
+    "options": [
+      "Elektron qurilmalardan sud ekspertizasi uchun raqamli dalillarni yig'ish va tahlil qilish",
+      "Kompyuter viruslarini yaratish",
+      "Tarmoq sozlash",
+      "Dastur yozish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 259,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Mobil kriminalistika qaysi qurilmalar bilan ishlaydi?",
+    "options": [
+      "Smartfonlar, planshetlar va boshqa mobil qurilmalar",
+      "Faqat shaxsiy kompyuterlar",
+      "Faqat serverlar",
+      "Faqat tarmoq uskunalari"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 260,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xalqaro kiberqonunlarning asosiy maqsadi nima?",
+    "options": [
+      "Davlatlar o'rtasida kiberxavfsizlik sohasida hamkorlik va jinoyatlarga qarshi kurashish",
+      "Faqat bitta davlatning manfaatlarini himoyalash",
+      "Internet tezligini oshirish",
+      "Dasturiy ta'minotni yaratish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 261,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kiberjinoyatchilikka misol bo'ladigan harakatlar qaysi?",
+    "options": [
+      "Ma'lumotlarni o'g'irlash, tizimga ruxsatsiz kirish, firibgarlik",
+      "Yangi dastur yaratish",
+      "Kompyuter sotib olish",
+      "Internet brauzerdan foydalanish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 262,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Fishing (phishing) hujumi qaysi jinoyat turiga kiradi?",
+    "options": [
+      "Ijtimoiy injineriya orqali amalga oshiriladigan kiberjinoyat",
+      "Fizik hujum",
+      "Dasturiy xato",
+      "Apparat nosozligi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 263,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kiberjinoyatchilikda DDoS hujumining maqsadi nima?",
+    "options": [
+      "Xizmatdan voz kechishga undash orqali tizimni ishdan chiqarish",
+      "Ma'lumotlarni shifrlash",
+      "Parolni o'zgartirish",
+      "Tarmoq tezligini oshirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 264,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Budapesht konvensiyasi nima haqida?",
+    "options": [
+      "Kiberjinoyatchilikning xalqaro miqyosda huquqiy jihatdan tartibga solinishi",
+      "Internet tezligini oshirish",
+      "Yangi dasturlash tilini yaratish",
+      "Ma'lumotlar bazasi standartlari"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 265,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Shaxsiy ma'lumotlarni ruxsatsiz to'plash qaysi soha buzilishiga tegishli?",
+    "options": [
+      "Konfidensiallik (maxfiylik) buzilishi",
+      "Yaxlitlik buzilishi",
+      "Foydalanuvchanlik buzilishi",
+      "Autentifikatsiya buzilishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 266,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kiberxavfsizlik arxitekturasi nima?",
+    "options": [
+      "Tashkilotning axborot xavfsizligini ta'minlash uchun tuzilgan tizimli himoya strukturasi",
+      "Bino loyihasi",
+      "Tarmoq kabeli sxemasi",
+      "Kompyuter qurilmalarining ro'yxati"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 267,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kiberxavfsizlik strategiyasi nimani belgilaydi?",
+    "options": [
+      "Tashkilotning uzoq muddatli xavfsizlik maqsadlari va ularga erishish yo'llarini",
+      "Faqat parol siyosatini",
+      "Faqat tarmoq sozlamalarini",
+      "Faqat virusga qarshi dasturni"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 268,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xavfsizlik siyosatining zaruriyati nimada?",
+    "options": [
+      "Tashkilotda axborot xavfsizligini tartibga solish va boshqarish uchun",
+      "Faqat hujjat tayyorlash uchun",
+      "Internet tezligini oshirish uchun",
+      "Dasturiy ta'minotni yangilash uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 269,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xavfsizlik siyosatining iyerarxiyasi qanday tuzilgan?",
+    "options": [
+      "Korporativ siyosat, funksional siyosat, standartlar, protseduralar",
+      "Faqat bitta hujjatdan iborat",
+      "Faqat texnik ko'rsatmalar",
+      "Faqat yuridik hujjatlar"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 270,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Axborot xavfsizligi siyosatining turlari qaysilar?",
+    "options": [
+      "Dastur sathidagi, mavzu sathidagi va tizim sathidagi siyosatlar",
+      "Faqat tarmoq siyosati",
+      "Faqat parol siyosati",
+      "Faqat fizik xavfsizlik siyosati"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 271,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xavfsizlik siyosatining afzalliklaridan biri:",
+    "options": [
+      "Xodimlarning xavfsizlik bo'yicha mas'uliyatini aniq belgilash",
+      "Tarmoq tezligini oshirish",
+      "Kompyuter narxini kamaytirish",
+      "Dasturiy ta'minotni bepul qilish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 272,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kiberxavfsizlik arxitekturasida \"chuqurlikda himoya\" (defense in depth) tamoyili nimani anglatadi?",
+    "options": [
+      "Bir necha qatlamli himoya tizimini qurish",
+      "Faqat bitta kuchli himoya vositasidan foydalanish",
+      "Faqat tarmoqni himoyalash",
+      "Faqat parollarni kuchaytirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 273,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xavfsizlik siyosati kim tomonidan tasdiqlanishi kerak?",
+    "options": [
+      "Tashkilot rahbariyati tomonidan",
+      "Faqat IT bo'limi tomonidan",
+      "Faqat oddiy xodimlar tomonidan",
+      "Faqat tashqi auditorlar tomonidan"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 274,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xavfsizlik siyosati qanchalik tez-tez yangilanishi kerak?",
+    "options": [
+      "Muntazam ravishda va muhim o'zgarishlar sodir bo'lganda",
+      "Hech qachon o'zgartirilmasligi kerak",
+      "Faqat har 10 yilda bir marta",
+      "Faqat kiberhujum sodir bo'lgandan keyin"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 275,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Zero Trust (Nol ishonch) arxitekturasi nimani talab qiladi?",
+    "options": [
+      "Har bir foydalanuvchi va qurilmani har doim tekshirishni",
+      "Barcha foydalanuvchilarga to'liq ishonishni",
+      "Faqat ichki tarmoqdagi foydalanuvchilarga ishonishni",
+      "Faqat administratorlarga ishonishni"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 276,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Axborot xavfsizligi siyosatida \"minimal imtiyoz\" tamoyili nimani anglatadi?",
+    "options": [
+      "Foydalanuvchilarga faqat ishlari uchun zarur bo'lgan minimal huquqlarni berish",
+      "Barcha foydalanuvchilarga administrator huquqlarini berish",
+      "Faqat bitta foydalanuvchiga barcha huquqlarni berish",
+      "Hech kimga hech qanday huquq bermaslik"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 277,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xavfsizlik siyosatining xususiyatlaridan biri:",
+    "options": [
+      "Aniq, tushunarli va amaliy bo'lishi kerak",
+      "Faqat texnik tilda yozilishi kerak",
+      "Maxfiy bo'lishi va hech kim bilmasligi kerak",
+      "Juda uzun va murakkab bo'lishi kerak"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 278,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kriptografiya nimani o'rganadi?",
+    "options": [
+      "Ma'lumotlarni shifrlash va himoyalash usullarini",
+      "Kompyuter qurilmalarini yig'ishni",
+      "Tarmoq kabellarini o'rnatishni",
+      "Operatsion tizimlarni yaratishni"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 279,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kriptotizim nima?",
+    "options": [
+      "Shifrlash va deshifrlash algoritmlari, kalitlar va protokollar majmuasi",
+      "Faqat parol",
+      "Tarmoq uskunasi",
+      "Ma'lumotlar bazasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 280,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kerkxofs prinsipi nimani bildiradi?",
+    "options": [
+      "Kriptotizimning xavfsizligi algoritmning maxfiyligiga emas, kalitning maxfiyligiga asoslanishi kerak",
+      "Algoritm doimo maxfiy bo'lishi kerak",
+      "Kalit ochiq bo'lishi kerak",
+      "Shifrlash kerak emas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 281,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ochiq matn (plaintext) nima?",
+    "options": [
+      "Shifrlanmagan, o'qilishi mumkin bo'lgan asl ma'lumot",
+      "Shifrlangan ma'lumot",
+      "Kalit",
+      "Xesh qiymat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 282,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Shifrlangan matn (ciphertext) nima?",
+    "options": [
+      "Kriptografik algoritm yordamida o'zgartirilgan, o'qib bo'lmaydigan ma'lumot",
+      "Oddiy matn",
+      "Parol",
+      "Raqamli imzo"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 283,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bir martalik bloknot (One-time pad) ning xususiyati:",
+    "options": [
+      "Nazariy jihatdan buzilishi mumkin bo'lmagan shifrlash usuli",
+      "Eng oddiy shifrlash usuli",
+      "Faqat raqamlarni shifrlaydi",
+      "Kalit kerak emas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 284,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kriptografiyaning qaysi bo'limi shifrlash bilan shug'ullanadi?",
+    "options": [
+      "Kriptografiya (shifrlash fani)",
+      "Kriptoanaliz",
+      "Steganografiya",
+      "Kriptologiya"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 285,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kriptoanaliz nima?",
+    "options": [
+      "Shifrlangan ma'lumotlarni kaliitsiz ochishga urinish fani",
+      "Ma'lumotlarni shifrlash usuli",
+      "Tarmoq himoyasi",
+      "Parol yaratish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 286,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Sezar shifri qaysi shifrlash turiga kiradi?",
+    "options": [
+      "Almashtirishga asoslangan klassik shifr",
+      "Zamonaviy blokli shifr",
+      "Ochiq kalitli shifrlash",
+      "Xesh funksiya"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 287,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Steganografiya nimani o'rganadi?",
+    "options": [
+      "Ma'lumotlarni boshqa ma'lumotlar ichiga yashirishni",
+      "Ma'lumotlarni shifrlashni",
+      "Ma'lumotlarni o'chirishni",
+      "Ma'lumotlarni zaxiralashni"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 288,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Diffuziya (diffusion) kriptografiyada nimani anglatadi?",
+    "options": [
+      "Ochiq matndagi bitta bit o'zgarishi shifrlangan matnga maksimal ta'sir qilishi",
+      "Kalitning uzun bo'lishi",
+      "Algoritmning tez ishlashi",
+      "Ma'lumotning o'chirilishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 289,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Konfuziya (confusion) kriptografiyada nimani anglatadi?",
+    "options": [
+      "Kalit va shifrlangan matn o'rtasidagi bog'lanishni murakkablashtirish",
+      "Ma'lumotni siqish",
+      "Tarmoqni himoyalash",
+      "Parolni uzaytirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 290,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kriptografik akslantirishlar nima?",
+    "options": [
+      "Ma'lumotlarni bir ko'rinishdan boshqa ko'rinishga o'zgartiruvchi matematik funksiyalar",
+      "Kompyuter monitori",
+      "Tarmoq kabeli",
+      "Printer"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 291,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Simmetrik shifrlash algoritmining asosiy xususiyati nima?",
+    "options": [
+      "Shifrlash va deshifrlash uchun bitta kalit ishlatiladi",
+      "Ikki xil kalit ishlatiladi",
+      "Kalit umuman ishlatilmaydi",
+      "Faqat ochiq kalit ishlatiladi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 292,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "AES (Advanced Encryption Standard) algoritmi qaysi toifaga kiradi?",
+    "options": [
+      "Simmetrik blokli shifrlash algoritmi",
+      "Ochiq kalitli algoritm",
+      "Xesh funksiya",
+      "Raqamli imzo algoritmi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 293,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "DES (Data Encryption Standard) algoritmi necha bitli kalit ishlatadi?",
+    "options": [
+      "56 bitli",
+      "128 bitli",
+      "256 bitli",
+      "512 bitli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 294,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Oqimli (stream) shifrlash algoritmi qanday ishlaydi?",
+    "options": [
+      "Ma'lumotlarni bit yoki bayt bo'yicha ketma-ket shifrlaydi",
+      "Ma'lumotlarni qat'iy bloklarga bo'lib shifrlaydi",
+      "Ma'lumotlarni faqat bir yo'nalishda shifrlaydi",
+      "Ma'lumotlarni faqat siqadi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 295,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Blokli (block) shifrlash algoritmi qanday ishlaydi?",
+    "options": [
+      "Ma'lumotlarni belgilangan uzunlikdagi bloklarga bo'lib shifrlaydi",
+      "Ma'lumotlarni bit bo'yicha ketma-ket shifrlaydi",
+      "Ma'lumotlarni faqat o'chiradi",
+      "Ma'lumotlarni faqat siqadi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 296,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "A5/1 algoritmi qayerda ishlatiladi?",
+    "options": [
+      "GSM mobil aloqa tizimida",
+      "Internet brauzerda",
+      "Elektron pochtada",
+      "Ma'lumotlar bazasida"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 297,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Simmetrik kriptotizimlardagi asosiy muammo nima?",
+    "options": [
+      "Kalitni xavfsiz almashish muammosi",
+      "Algoritmning juda tez ishlashi",
+      "Kalitning juda qisqa bo'lishi",
+      "Shifrlash imkonsizligi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 298,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "AES algoritmi necha bitli blok uzunligidan foydalanadi?",
+    "options": [
+      "128 bit",
+      "64 bit",
+      "256 bit",
+      "512 bit"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 299,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "3DES algoritmi DESdan qanday farq qiladi?",
+    "options": [
+      "DES algoritmini uch marta qo'llaydi va xavfsizlikni oshiradi",
+      "Faqat bir marta shifrlaydi",
+      "Ochiq kalit ishlatadi",
+      "Kalit ishlatmaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 300,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Simmetrik kriptotizimlarda kalit uzunligi xavfsizlikka qanday ta'sir qiladi?",
+    "options": [
+      "Kalit uzunroq bo'lsa, kuch bilan buzish qiyinlashadi",
+      "Kalit uzunligi xavfsizlikka ta'sir qilmaydi",
+      "Qisqa kalit xavfsizroq",
+      "Faqat 8 bitli kalit yetarli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 301,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Simmetrik shifrlashning afzalligi:",
+    "options": [
+      "Tezkor ishlashi va kam resurs talab qilishi",
+      "Kalit almashish muammosi yo'qligi",
+      "Raqamli imzo yarata olishi",
+      "Ochiq kalit ishlatishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 302,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RC4 algoritmi qaysi toifaga kiradi?",
+    "options": [
+      "Oqimli simmetrik shifrlash algoritmi",
+      "Blokli shifrlash algoritmi",
+      "Xesh funksiya",
+      "Ochiq kalitli algoritm"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 303,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ochiq kalitli kriptotizimda nechta kalit ishlatiladi?",
+    "options": [
+      "Ikkita: ochiq kalit va maxfiy kalit",
+      "Bitta kalit",
+      "Uchta kalit",
+      "Kalit ishlatilmaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 304,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RSA algoritmi qaysi matematik muammoga asoslangan?",
+    "options": [
+      "Katta sonlarni ko'paytuvchilarga ajratish (faktorlash) muammosiga",
+      "Logarifm muammosiga",
+      "Chiziqli tenglamalar tizimiga",
+      "Geometrik hisoblashga"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 305,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ochiq kalit (public key) kimga ma'lum bo'lishi kerak?",
+    "options": [
+      "Hamma uchun ochiq bo'lishi mumkin",
+      "Faqat jo'natuvchiga",
+      "Faqat qabul qiluvchiga",
+      "Hech kimga"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 306,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Maxfiy kalit (private key) kimda saqlanishi kerak?",
+    "options": [
+      "Faqat kalit egasida",
+      "Hamma uchun ochiq",
+      "Faqat serverda",
+      "Faqat jo'natuvchida"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 307,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bir tomonlama funksiya (one-way function) nima?",
+    "options": [
+      "Hisoblash oson, lekin teskari hisoblash juda qiyin bo'lgan funksiya",
+      "Ikki tomonlama hisoblash mumkin bo'lgan funksiya",
+      "Faqat shifrlash uchun ishlatiladigan funksiya",
+      "Kalit yaratish funksiyasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 308,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Modul arifmetikasi (modular arithmetic) qanday ishlaydi?",
+    "options": [
+      "Sonlarni ma'lum songa bo'lgandagi qoldiq bilan ishlaydi",
+      "Oddiy qo'shish va ayirish",
+      "Faqat ko'paytirish",
+      "Faqat bo'lish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 309,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RSA algoritmida xabarni shifrlash uchun qaysi kalit ishlatiladi?",
+    "options": [
+      "Qabul qiluvchining ochiq kaliti",
+      "Jo'natuvchining maxfiy kaliti",
+      "Umumiy parol",
+      "Xesh qiymat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 310,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RSA algoritmida xabarni deshifrlash uchun qaysi kalit ishlatiladi?",
+    "options": [
+      "Qabul qiluvchining maxfiy kaliti",
+      "Jo'natuvchining ochiq kaliti",
+      "Umumiy parol",
+      "Sertifikat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 311,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ochiq kalitli kriptotizimlarning afzalligi:",
+    "options": [
+      "Kalitni xavfsiz almashish muammosini hal qilishi",
+      "Simmetrik algoritmlardan tezroq ishlashi",
+      "Kam xotira talab qilishi",
+      "Oddiy matematik asosga ega bo'lishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 312,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ochiq kalitli kriptotizimlarning kamchiligi:",
+    "options": [
+      "Simmetrik algoritmlarga nisbatan sekinroq ishlashi",
+      "Kalit almashish muammosi mavjudligi",
+      "Kalitni boshqarish qiyinligi",
+      "Raqamli imzo yarata olmasligi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 313,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Diffie-Hellman algoritmi nima uchun ishlatiladi?",
+    "options": [
+      "Ikki tomon o'rtasida xavfsiz kalit almashish uchun",
+      "Ma'lumotlarni shifrlash uchun",
+      "Raqamli imzo yaratish uchun",
+      "Xesh qiymat hisoblash uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 314,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ochiq kalitli kriptotizimlarda kalit uzunligi odatda qancha?",
+    "options": [
+      "1024, 2048 yoki 4096 bit",
+      "8 yoki 16 bit",
+      "56 yoki 64 bit",
+      "128 yoki 256 bit"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 315,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xesh funksiya nima?",
+    "options": [
+      "Ixtiyoriy uzunlikdagi ma'lumotni qat'iy uzunlikdagi qiymatga aylantiradigan funksiya",
+      "Shifrlash algoritmi",
+      "Kalit almashish protokoli",
+      "Tarmoq protokoli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 316,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xesh funksiyaning asosiy xususiyati:",
+    "options": [
+      "Bir tomonlamalik - xesh qiymatdan asl ma'lumotni qayta tiklab bo'lmaydi",
+      "Ikki tomonlama ishlaydi",
+      "Kalit talab qiladi",
+      "Faqat matnlarni o'zgartiradi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 317,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "MD5 xesh algoritmi necha bitli xesh qiymat hosil qiladi?",
+    "options": [
+      "128 bit",
+      "256 bit",
+      "512 bit",
+      "64 bit"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 318,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "SHA-256 xesh algoritmi necha bitli xesh qiymat hosil qiladi?",
+    "options": [
+      "256 bit",
+      "128 bit",
+      "64 bit",
+      "512 bit"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 319,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "MAC (Message Authentication Code) nima?",
+    "options": [
+      "Xabarlarni autentifikatsiyalash kodi - xabar yaxlitligini va manbani tasdiqlaydi",
+      "Media Access Control manzili",
+      "Tarmoq protokoli",
+      "Shifrlash algoritmi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 320,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Elektron raqamli imzo (ERI) nima uchun ishlatiladi?",
+    "options": [
+      "Xabar muallifini tasdiqlash va xabar yaxlitligini kafolatlash uchun",
+      "Faqat xabarni shifrlash uchun",
+      "Tarmoq tezligini oshirish uchun",
+      "Parolni saqlash uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 321,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Raqamli imzo yaratishda qaysi kalit ishlatiladi?",
+    "options": [
+      "Imzolovchining maxfiy kaliti",
+      "Imzolovchining ochiq kaliti",
+      "Umumiy kalit",
+      "Sertifikat kaliti"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 322,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Raqamli imzoni tekshirishda qaysi kalit ishlatiladi?",
+    "options": [
+      "Imzolovchining ochiq kaliti",
+      "Imzolovchining maxfiy kaliti",
+      "Shaxsiy parol",
+      "Umumiy kalit"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 323,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ochiq kalitlar infrastrukturasi (PKI) nima?",
+    "options": [
+      "Raqamli sertifikatlarni boshqarish uchun zarur bo'lgan texnologiya va siyosatlar to'plami",
+      "Tarmoq kabellari tizimi",
+      "Operatsion tizim",
+      "Ma'lumotlar bazasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 324,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "X.509 raqamli sertifikat formati nimani o'z ichiga oladi?",
+    "options": [
+      "Sertifikat egasining ochiq kaliti, egasi haqida ma'lumot va sertifikat beruvchining imzosi",
+      "Faqat parol",
+      "Faqat IP manzil",
+      "Faqat foydalanuvchi nomi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 325,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Sertifikatlashtirish markazi (CA) ning vazifasi nima?",
+    "options": [
+      "Raqamli sertifikatlarni berish va ularning haqiqiyligini tasdiqlash",
+      "Tarmoq tezligini boshqarish",
+      "Ma'lumotlarni shifrlash",
+      "Viruslarni aniqlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 326,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xesh kolliziyasi nima?",
+    "options": [
+      "Ikki xil ma'lumot uchun bir xil xesh qiymat hosil bo'lishi",
+      "Xesh qiymatning yo'qolishi",
+      "Kalitning buzilishi",
+      "Tarmoq xatosi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 327,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "SSL/TLS protokoli nima uchun ishlatiladi?",
+    "options": [
+      "Internet orqali xavfsiz ma'lumot almashishni ta'minlash uchun",
+      "Faqat elektron pochta uchun",
+      "Faqat fayllarni siqish uchun",
+      "Faqat printer bilan bog'lanish uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 328,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "HTTPS protokolida qaysi xavfsizlik texnologiyasi ishlatiladi?",
+    "options": [
+      "SSL/TLS",
+      "Faqat parol",
+      "Faqat tarmoqlararo ekran",
+      "Faqat antivirus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 329,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "SSH (Secure Shell) nima uchun ishlatiladi?",
+    "options": [
+      "Masofaviy kompyuterlarga xavfsiz ulanish va boshqarish uchun",
+      "Faqat fayllarni o'chirish uchun",
+      "Faqat printer ulash uchun",
+      "Faqat video ko'rish uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 330,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "IPSec protokoli qaysi sathda ishlaydi?",
+    "options": [
+      "Tarmoq sathida (IP sathida)",
+      "Ilova sathida",
+      "Fizik sathda",
+      "Ma'lumotlar kanali sathida"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 331,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Apparat shifrlash va dasturiy shifrlash o'rtasidagi farq:",
+    "options": [
+      "Apparat shifrlash maxsus qurilma orqali, dasturiy shifrlash dastur orqali amalga oshiriladi",
+      "Farq yo'q",
+      "Apparat shifrlash sekinroq",
+      "Dasturiy shifrlash xavfsizroq"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 332,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Disk sathida shifrlash nimani himoyalaydi?",
+    "options": [
+      "Butun disk yoki bo'limning ma'lumotlarini ruxsatsiz kirishdan",
+      "Faqat bitta faylni",
+      "Faqat tarmoq trafikini",
+      "Faqat elektron pochtani"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 333,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Blokchain texnologiyasining asosiy xususiyati:",
+    "options": [
+      "Markazlashtirilmagan va o'zgartirib bo'lmaydigan ma'lumotlar zanjiri",
+      "Markazlashtirilgan ma'lumotlar bazasi",
+      "Faqat kriptovalyuta uchun",
+      "Oddiy ro'yxat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 334,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "PGP (Pretty Good Privacy) nima uchun ishlatiladi?",
+    "options": [
+      "Elektron pochta xabarlarini shifrlash va raqamli imzolash uchun",
+      "Tarmoq tezligini oshirish uchun",
+      "Viruslarni aniqlash uchun",
+      "Operatsion tizimni o'rnatish uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 335,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "E-hukumat tizimlarida kriptografiyaning roli:",
+    "options": [
+      "Davlat xizmatlarini xavfsiz ko'rsatish va fuqarolar ma'lumotlarini himoyalash",
+      "Faqat veb-saytlarni bezash",
+      "Internet tezligini oshirish",
+      "Kompyuterlar sonini ko'paytirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 336,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Fayl tizim sathida shifrlash nimani anglatadi?",
+    "options": [
+      "Alohida fayllar yoki papkalarni shifrlash",
+      "Butun diskni shifrlash",
+      "Tarmoq trafikini shifrlash",
+      "Elektron pochtani shifrlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 337,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Elektron to'lov tizimlarida kriptografiya qanday qo'llaniladi?",
+    "options": [
+      "Tranzaksiyalarni shifrlash va autentifikatsiyalash orqali",
+      "Faqat kvitansiya chop etish orqali",
+      "Faqat kassani boshqarish orqali",
+      "Faqat tovarlar ro'yxatini ko'rish orqali"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 338,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "VPN (Virtual Private Network) da qaysi kriptografik protokol keng ishlatiladi?",
+    "options": [
+      "IPSec va SSL/TLS",
+      "Faqat HTTP",
+      "Faqat FTP",
+      "Faqat SMTP"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 339,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Identifikatsiya nima?",
+    "options": [
+      "Foydalanuvchining o'zini tizimga tanitishi (login, ID)",
+      "Foydalanuvchi huquqlarini belgilash",
+      "Parolni tekshirish",
+      "Tarmoqqa ulanish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 340,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Autentifikatsiya nima?",
+    "options": [
+      "Foydalanuvchi haqiqatan ham u ekanligini tasdiqlash jarayoni",
+      "Foydalanuvchiga huquq berish",
+      "Foydalanuvchini tizimda ro'yxatdan o'tkazish",
+      "Foydalanuvchini tizimdan chiqarish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 341,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Avtorizatsiya nima?",
+    "options": [
+      "Tasdiqlangan foydalanuvchiga resurslardan foydalanish huquqlarini belgilash",
+      "Foydalanuvchini aniqlash",
+      "Parolni tekshirish",
+      "Tizimga kirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 342,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bir tomonlama autentifikatsiya nima?",
+    "options": [
+      "Faqat bir tomon (odatda foydalanuvchi) o'zini tasdiqlashi",
+      "Ikki tomon ham bir-birini tasdiqlashi",
+      "Autentifikatsiyasiz kirish",
+      "Faqat parol kiritish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 343,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ikki tomonlama autentifikatsiya nima?",
+    "options": [
+      "Ikkala tomon ham bir-birini o'zaro tasdiqlashi",
+      "Faqat server foydalanuvchini tekshirishi",
+      "Ikki marta parol kiritish",
+      "Ikki xil login ishlatish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 344,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ko'p omilli autentifikatsiya (MFA) nima?",
+    "options": [
+      "Ikki yoki undan ortiq autentifikatsiya usulini birgalikda qo'llash",
+      "Faqat bitta parol ishlatish",
+      "Bir necha marta login kiritish",
+      "Ko'p foydalanuvchi bir vaqtda kirishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 345,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Autentifikatsiya omillaridan biri - \"Bilish\" (knowledge) ga misol:",
+    "options": [
+      "Parol, PIN-kod, maxfiy savol",
+      "Barmoq izi",
+      "Smart-karta",
+      "Yuz tasviri"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 346,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Autentifikatsiya omillaridan biri - \"Ega bo'lish\" (possession) ga misol:",
+    "options": [
+      "Smart-karta, token, mobil telefon",
+      "Parol",
+      "PIN-kod",
+      "Maxfiy savol javobi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 347,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Autentifikatsiya omillaridan biri - \"Bo'lish\" (inherence) ga misol:",
+    "options": [
+      "Barmoq izi, yuz tasviri, ko'z qorachig'i",
+      "Parol",
+      "Smart-karta",
+      "PIN-kod"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 348,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Biometrik autentifikatsiya tizimi nimaga asoslangan?",
+    "options": [
+      "Insonning noyob jismoniy yoki xulq-atvor xususiyatlariga",
+      "Faqat parollarga",
+      "Faqat smart-kartalarga",
+      "Faqat PIN-kodlarga"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 349,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Parol tizimlarining asosiy kamchiligi:",
+    "options": [
+      "Parollar o'g'irlanishi, taxmin qilinishi yoki unutilishi mumkin",
+      "Parollar juda xavfsiz",
+      "Parollar hech qachon buzilmaydi",
+      "Parollar biometrikadan xavfsizroq"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 350,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "OTP (One-Time Password) nima?",
+    "options": [
+      "Faqat bir marta ishlatiladigan vaqtinchalik parol",
+      "Doimiy parol",
+      "Administrator paroli",
+      "Tarmoq paroli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 351,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Biometrik tizimlarning afzalligi:",
+    "options": [
+      "Unutilishi yoki o'g'irlanishi mumkin bo'lmagan noyob identifikator",
+      "Arzon narxi",
+      "Oddiy o'rnatilishi",
+      "Kalit kerak emasligi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 352,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Foydalanishni boshqarish (Access Control) nima?",
+    "options": [
+      "Resurslardan foydalanish huquqlarini belgilash va nazorat qilish jarayoni",
+      "Tarmoq tezligini boshqarish",
+      "Kompyuter haroratini nazorat qilish",
+      "Dasturlarni o'rnatish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 353,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "DAC (Discretionary Access Control) usulining xususiyati:",
+    "options": [
+      "Resurs egasi boshqa foydalanuvchilarga huquqlarni o'zi belgilaydi",
+      "Faqat administrator huquq beradi",
+      "Rollar asosida huquq beriladi",
+      "Atributlar asosida huquq beriladi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 354,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "MAC (Mandatory Access Control) usulining xususiyati:",
+    "options": [
+      "Foydalanish huquqlari markaziy siyosat asosida tizim tomonidan boshqariladi",
+      "Resurs egasi huquqlarni belgilaydi",
+      "Foydalanuvchi o'zi huquqlarini o'zgartiradi",
+      "Hech qanday cheklov yo'q"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 355,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RBAC (Role-Based Access Control) usulining xususiyati:",
+    "options": [
+      "Foydalanuvchilarga rollar orqali huquqlar beriladi",
+      "Har bir foydalanuvchiga alohida huquq beriladi",
+      "Faqat administrator foydalana oladi",
+      "Cheklov yo'q"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 356,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "ABAC (Attribute-Based Access Control) usulining xususiyati:",
+    "options": [
+      "Foydalanuvchi, resurs va muhit atributlari asosida huquqlar belgilanadi",
+      "Faqat rollar asosida",
+      "Faqat parol asosida",
+      "Faqat vaqt asosida"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 357,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Foydalanishni boshqarish matritsasi nima?",
+    "options": [
+      "Foydalanuvchilar va resurslar o'rtasidagi huquqlarni ko'rsatuvchi jadval",
+      "Shifrlash algoritmi",
+      "Tarmoq diagrammasi",
+      "Ma'lumotlar bazasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 358,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "ACL (Access Control List) nima?",
+    "options": [
+      "Resursga kim qanday huquqlarga ega ekanligini ko'rsatadigan ro'yxat",
+      "Foydalanuvchilar ro'yxati",
+      "Kompyuterlar ro'yxati",
+      "Dasturlar ro'yxati"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 359,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "C-list (Capability List) nima?",
+    "options": [
+      "Foydalanuvchi qaysi resurslarga qanday huquqlarga ega ekanligini ko'rsatadigan ro'yxat",
+      "Kompyuterlar ro'yxati",
+      "Tarmoq uskunalari ro'yxati",
+      "Dasturlar ro'yxati"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 360,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RBAC usulida \"rol\" nima?",
+    "options": [
+      "Tashkilotdagi lavozim yoki funksiyaga mos keladigan huquqlar to'plami",
+      "Foydalanuvchi nomi",
+      "Parol turi",
+      "IP manzil"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 361,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "MAC usulida xavfsizlik tamoyili (label) nima?",
+    "options": [
+      "Har bir resurs va foydalanuvchiga beriladigan maxfiylik darajasi",
+      "Kompyuter nomi",
+      "Tarmoq manzili",
+      "Dastur versiyasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 362,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "DAC usulining kamchiligi nima?",
+    "options": [
+      "Resurs egasi noto'g'ri huquqlar berib, xavfsizlikni buzishi mumkin",
+      "Juda qat'iy nazorat",
+      "Juda sekin ishlashi",
+      "Rollarni qo'llab-quvvatlamasligi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 363,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Foydalanishni boshqarishda \"ruxsat berish\" va \"rad etish\" tamoyillari qanday ishlaydi?",
+    "options": [
+      "Agar aniq ruxsat berilmagan bo'lsa, sukut bo'yicha rad etiladi",
+      "Agar rad etilmagan bo'lsa, ruxsat beriladi",
+      "Hamma narsaga ruxsat beriladi",
+      "Hamma narsa rad etiladi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 364,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bell-LaPadula modeli nimani himoyalaydi?",
+    "options": [
+      "Ma'lumotlarning konfidensialligini (maxfiyligini)",
+      "Ma'lumotlarning yaxlitligini",
+      "Ma'lumotlarning foydalanuvchanligini",
+      "Tarmoq tezligini"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 365,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bell-LaPadula modelining \"yuqoriga o'qimaslik\" (no read up) qoidasi nimani anglatadi?",
+    "options": [
+      "Past maxfiylik darajasidagi foydalanuvchi yuqori darajadagi ma'lumotni o'qiy olmaydi",
+      "Yuqori darajadagi foydalanuvchi past darajaga yoza olmaydi",
+      "Hamma barcha ma'lumotlarni o'qiy oladi",
+      "Hech kim hech narsani o'qiy olmaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 366,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bell-LaPadula modelining \"pastga yozmaslik\" (no write down) qoidasi nimani anglatadi?",
+    "options": [
+      "Yuqori maxfiylik darajasidagi foydalanuvchi past darajaga ma'lumot yoza olmaydi",
+      "Past darajadagi foydalanuvchi yuqoriga yoza olmaydi",
+      "Hamma hamma joyga yoza oladi",
+      "Hech kim yoza olmaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 367,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Biba modeli nimani himoyalaydi?",
+    "options": [
+      "Ma'lumotlarning yaxlitligini (butunligini)",
+      "Ma'lumotlarning maxfiyligini",
+      "Ma'lumotlarning foydalanuvchanligini",
+      "Tarmoq xavfsizligini"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 368,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Biba modelining \"pastdan o'qimaslik\" (no read down) qoidasi nimani anglatadi?",
+    "options": [
+      "Yuqori yaxlitlik darajasidagi foydalanuvchi past darajadagi ma'lumotni o'qimasligi kerak",
+      "Past darajadagi foydalanuvchi yuqoriga o'qiy olmaydi",
+      "Hamma barcha ma'lumotlarni o'qiy oladi",
+      "Faqat administrator o'qiy oladi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 369,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Biba modelining \"yuqoriga yozmaslik\" (no write up) qoidasi nimani anglatadi?",
+    "options": [
+      "Past yaxlitlik darajasidagi foydalanuvchi yuqori darajaga yoza olmaydi",
+      "Yuqori darajadagi foydalanuvchi pastga yoza olmaydi",
+      "Hamma hamma joyga yoza oladi",
+      "Faqat administrator yoza oladi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 370,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bell-LaPadula va Biba modellari o'rtasidagi asosiy farq:",
+    "options": [
+      "Bell-LaPadula maxfiylikni, Biba esa yaxlitlikni himoyalaydi",
+      "Ikkisi ham bir xil narsani himoyalaydi",
+      "Bell-LaPadula tezroq ishlaydi",
+      "Biba yangi model"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 371,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ko'p sathli xavfsizlik (MLS) modeli nimani nazarda tutadi?",
+    "options": [
+      "Turli maxfiylik darajalaridagi ma'lumotlarni bitta tizimda boshqarish",
+      "Faqat bitta darajadagi xavfsizlik",
+      "Faqat fizik xavfsizlik",
+      "Tarmoq tezligini boshqarish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 372,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Mantiqiy foydalanishni boshqarish nimani anglatadi?",
+    "options": [
+      "Dasturiy va texnik vositalar orqali ma'lumotlarga kirishni cheklash",
+      "Eshik va qulflar orqali himoyalash",
+      "Kuzatuv kameralari o'rnatish",
+      "Qo'riqchi qo'yish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 373,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Fizik foydalanishni boshqarish nimani anglatadi?",
+    "options": [
+      "Jismoniy vositalar orqali ma'lumotlar joylashgan hududga kirishni cheklash",
+      "Parollar orqali himoyalash",
+      "Shifrlash orqali himoyalash",
+      "Tarmoqlararo ekran orqali himoyalash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 374,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Clark-Wilson modeli nimani ta'minlaydi?",
+    "options": [
+      "Ma'lumotlar yaxlitligini tranzaksiyalar orqali boshqarish",
+      "Faqat maxfiylikni",
+      "Faqat foydalanuvchanlikni",
+      "Faqat tarmoq xavfsizligini"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 375,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Chinese Wall modeli nimani himoyalaydi?",
+    "options": [
+      "Manfaatlar to'qnashuvini oldini olish",
+      "Faqat ma'lumotlar maxfiyligini",
+      "Faqat fizik xavfsizlikni",
+      "Faqat tarmoq xavfsizligini"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 376,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Fizik xavfsizlikning zaruriyati nimada?",
+    "options": [
+      "Axborot saqlanadigan jismoniy muhitni tabiiy va sun'iy tahdidlardan himoyalash",
+      "Faqat dasturiy ta'minotni himoyalash",
+      "Faqat tarmoq tezligini oshirish",
+      "Faqat elektr energiyasini tejash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 377,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Tabiiy tahdidlarga nimalar kiradi?",
+    "options": [
+      "Zilzila, suv toshqini, yong'in, momaqaldiroq",
+      "Xakerlik hujumlari",
+      "Virus tarqalishi",
+      "Parol o'g'irlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 378,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Sun'iy tahdidlarga nimalar kiradi?",
+    "options": [
+      "O'g'irlik, qasddan buzish, diversiya, sabotaj",
+      "Zilzila",
+      "Suv toshqini",
+      "Yong'in"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 379,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Fizik xavfsizlikni nazoratlash usullaridan biri:",
+    "options": [
+      "Kuzatuv kameralari va kirishni nazorat qilish tizimlari",
+      "Shifrlash algoritmlari",
+      "Virusga qarshi dasturlar",
+      "Tarmoqlararo ekranlar"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 380,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ma'lumotlarni xavfsiz yo'q qilish usullari qaysilar?",
+    "options": [
+      "Qog'oz hujjatlarni maydalash, elektron axborot tashuvchilarni degaussing yoki fizik buzish",
+      "Faqat o'chirib tashlash",
+      "Savatga tashlash",
+      "Faylni qayta nomlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 381,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Degaussing nima?",
+    "options": [
+      "Kuchli magnit maydoni orqali ma'lumot tashuvchidagi ma'lumotlarni yo'q qilish",
+      "Ma'lumotlarni shifrlash",
+      "Ma'lumotlarni siqish",
+      "Ma'lumotlarni ko'chirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 382,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Server xonasida harorat nazorati nima uchun muhim?",
+    "options": [
+      "Uskunalarning haddan tashqari qizib ketishini oldini olish uchun",
+      "Faqat xodimlar qulayligi uchun",
+      "Faqat energiya tejash uchun",
+      "Faqat chiroyli ko'rinish uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 383,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "UPS (Uzluksiz quvvat manbai) ning vazifasi:",
+    "options": [
+      "Elektr uzilganda uskunalarni vaqtincha quvvat bilan ta'minlash",
+      "Tarmoq tezligini oshirish",
+      "Ma'lumotlarni shifrlash",
+      "Viruslarni aniqlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 384,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Biometrik kirishni nazorat qilish tizimlariga misol:",
+    "options": [
+      "Barmoq izi skaneri, yuz tanish tizimi, ko'z pardasi skaneri",
+      "Parol kiritish",
+      "Kalit bilan eshik ochish",
+      "Telefon orqali qo'ng'iroq qilish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 385,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ogohlik va o'qitish fizik xavfsizlikda qanday ahamiyatga ega?",
+    "options": [
+      "Xodimlarni xavfsizlik qoidalari va tahdidlar haqida xabardor qilish orqali himoyani kuchaytiradi",
+      "Hech qanday ahamiyati yo'q",
+      "Faqat texnik xodimlar uchun kerak",
+      "Faqat rahbarlar uchun kerak"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 386,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ma'lumotlarni saqlash xonasiga kirish qanday nazorat qilinishi kerak?",
+    "options": [
+      "Faqat ruxsat etilgan shaxslar kirishi va barcha kirishlar qayd qilinishi kerak",
+      "Hamma kiravera olishi kerak",
+      "Faqat tunda nazorat qilinishi kerak",
+      "Nazorat kerak emas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 387,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Yong'inga qarshi himoya tizimlarining ahamiyati:",
+    "options": [
+      "Uskunalar va ma'lumotlarni yong'indan himoyalash va avtomatik o'chirish tizimini ta'minlash",
+      "Faqat bino ko'rinishini yaxshilash",
+      "Faqat qonun talabi",
+      "Ahamiyati yo'q"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 388,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "LAN (Local Area Network) nima?",
+    "options": [
+      "Cheklangan hududdagi (bino, ofis) kompyuterlarni birlashtiruvchi tarmoq",
+      "Butun dunyo bo'ylab tarqalgan tarmoq",
+      "Faqat simsiz tarmoq",
+      "Faqat uyali aloqa tarmog'i"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 389,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "WAN (Wide Area Network) nima?",
+    "options": [
+      "Katta geografik hududni qamrab oluvchi tarmoq",
+      "Faqat bitta bino ichidagi tarmoq",
+      "Faqat simsiz tarmoq",
+      "Faqat lokal tarmoq"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 390,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "OSI modelida nechta qatlam bor?",
+    "options": [
+      "7 ta",
+      "4 ta",
+      "5 ta",
+      "3 ta"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 391,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "TCP/IP modelida nechta qatlam bor?",
+    "options": [
+      "4 ta",
+      "7 ta",
+      "5 ta",
+      "3 ta"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 392,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Razvedka (reconnaissance) hujumi nima?",
+    "options": [
+      "Nishon tizim haqida ma'lumot to'plash maqsadidagi hujum",
+      "Tizimni buzish",
+      "Ma'lumotlarni o'chirish",
+      "Virusni tarqatish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 393,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kirish hujumi (access attack) nima?",
+    "options": [
+      "Ruxsatsiz tizim yoki ma'lumotlarga kirish uchun amalga oshiriladigan hujum",
+      "Ma'lumot to'plash",
+      "Tarmoq tezligini o'lchash",
+      "Tizimni yangilash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 394,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "DoS (Denial of Service) hujumi nimani maqsad qiladi?",
+    "options": [
+      "Tizim yoki xizmatni foydalanuvchilarga yaroqsiz holga keltirish",
+      "Ma'lumotlarni o'g'irlash",
+      "Parolni o'zgartirish",
+      "Tizimga kirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 395,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "DDoS hujumi DoS dan qanday farq qiladi?",
+    "options": [
+      "Ko'plab kompyuterlardan bir vaqtda hujum qilinadi",
+      "Bitta kompyuterdan hujum qilinadi",
+      "Hujum amalga oshirilmaydi",
+      "Faqat ichki tarmoqda"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 396,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Man-in-the-Middle (MITM) hujumi nima?",
+    "options": [
+      "Hujumchi ikki tomon orasidagi aloqani tutib, ma'lumotlarni tinglash yoki o'zgartirish",
+      "Kompyuterni fizik buzish",
+      "Virusni tarqatish",
+      "Parolni o'zgartirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 397,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ichki tahdid (insider threat) nima?",
+    "options": [
+      "Tashkilot xodimi yoki ishonchli shaxs tomonidan keltirilgan xavf",
+      "Tashqi haker tomonidan hujum",
+      "Virus tarqalishi",
+      "Tabiiy ofat"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 398,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Tarmoq topologiyalarining turlari qaysilar?",
+    "options": [
+      "Yulduz, halqa, shina, to'r (mesh), daraxt",
+      "Faqat yulduz",
+      "Faqat halqa",
+      "Faqat shina"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 399,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "TCP protokolining xususiyati:",
+    "options": [
+      "Ishonchli ulanishga asoslangan ma'lumot uzatish protokoli",
+      "Ishonchsiz, ulanishsiz protokol",
+      "Faqat video uzatish uchun",
+      "Faqat pochta uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 400,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Sniffing hujumi nima?",
+    "options": [
+      "Tarmoqdagi ma'lumot paketlarini ruxsatsiz tutib olish va tahlil qilish",
+      "Tarmoq kabelini uzish",
+      "Kompyuterni o'chirish",
+      "Parolni o'zgartirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 401,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Tarmoqlararo ekran (Firewall) nima?",
+    "options": [
+      "Tarmoq trafikini nazorat qilib, ruxsatsiz kirishlardan himoyalovchi vosita",
+      "Virusga qarshi dastur",
+      "Ma'lumotlar bazasi",
+      "Operatsion tizim"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 402,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "VPN (Virtual Private Network) nima?",
+    "options": [
+      "Internet orqali xavfsiz shifrlangan virtual kanal yaratish texnologiyasi",
+      "Oddiy internet ulanishi",
+      "Wi-Fi tarmog'i",
+      "Lokal tarmoq"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 403,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "IDS (Intrusion Detection System) nima?",
+    "options": [
+      "Suqilib kirishlarni aniqlash tizimi",
+      "Virusga qarshi dastur",
+      "Shifrlash algoritmi",
+      "Tarmoq kabeli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 404,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "IPS (Intrusion Prevention System) IDS dan qanday farq qiladi?",
+    "options": [
+      "IPS faqat aniqlamaydi, balki hujumni avtomatik bloklaydi ham",
+      "IPS faqat aniqlaydi",
+      "Farq yo'q",
+      "IPS sekinroq ishlaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 405,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "DLP (Data Leakage Prevention) tizimi nima?",
+    "options": [
+      "Ma'lumotlarning sirqib chiqishini (sizib ketishini) oldini olish tizimi",
+      "Virusga qarshi dastur",
+      "Tarmoq tezligini oshirish vositasi",
+      "Ma'lumotlar bazasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 406,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Honeypot (tuzoq) nima?",
+    "options": [
+      "Hujumchilarni jalb qilish va ularning usullarini o'rganish uchun maxsus qo'yilgan yolg'on nishon",
+      "Haqiqiy server",
+      "Ma'lumotlar bazasi",
+      "Shifrlash vositasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 407,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Paketli filtrlash tarmoqlararo ekranda qanday ishlaydi?",
+    "options": [
+      "Har bir tarmoq paketini IP manzili, port va protokol bo'yicha tekshiradi",
+      "Faqat foydalanuvchi nomini tekshiradi",
+      "Faqat parolni tekshiradi",
+      "Faqat fayllarni tekshiradi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 408,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Stateful inspection (holatni kuzatuvchi) tarmoqlararo ekran nima?",
+    "options": [
+      "Ulanishlarning holatini kuzatib, kontekstga qarab trafikni filtrlaydi",
+      "Faqat paketlarni alohida tekshiradi",
+      "Faqat parolni tekshiradi",
+      "Faqat viruslarni aniqlaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 409,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "DMZ (Demilitarized Zone) nima?",
+    "options": [
+      "Ichki va tashqi tarmoq o'rtasidagi bufer zona",
+      "Maxfiy tarmoq",
+      "Simsiz tarmoq",
+      "Lokal tarmoq"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 410,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Proksi-server nima uchun ishlatiladi?",
+    "options": [
+      "Foydalanuvchi va internet o'rtasida vositachilik qilish va xavfsizlikni oshirish",
+      "Ma'lumotlarni shifrlash",
+      "Viruslarni yaratish",
+      "Tarmoq kabellarini ulash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 411,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "NIDS (Network-based IDS) nimani kuzatadi?",
+    "options": [
+      "Tarmoq trafikini tahlil qilib, shubhali faoliyatni aniqlaydi",
+      "Faqat bitta kompyuterdagi fayllarni",
+      "Faqat elektron pochtani",
+      "Faqat printer trafikini"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 412,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "HIDS (Host-based IDS) nimani kuzatadi?",
+    "options": [
+      "Bitta kompyuter yoki serverdagi faoliyatni kuzatadi",
+      "Butun tarmoq trafikini",
+      "Faqat internet trafikini",
+      "Faqat simsiz trafikni"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 413,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Wi-Fi simsiz tarmog'ining asosiy xavfsizlik muammosi:",
+    "options": [
+      "Signal havo orqali tarqalgani uchun tinglash va ruxsatsiz ulanish oson",
+      "Kabel kerak bo'lishi",
+      "Juda sekin ishlashi",
+      "Faqat bir qurilma ulana olishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 414,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "WEP (Wired Equivalent Privacy) protokolining kamchiligi:",
+    "options": [
+      "Zaif shifrlash kaliti tufayli oson buzilishi",
+      "Juda kuchli va sekin ishlashi",
+      "Faqat yangi qurilmalarda ishlashi",
+      "Hech qanday kamchiligi yo'q"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 415,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "WPA (Wi-Fi Protected Access) WEP dan qanday ustunligi bor?",
+    "options": [
+      "Yanada kuchli shifrlash va dinamik kalit almashinuvi",
+      "Sekinroq ishlaydi",
+      "Kamroq xavfsiz",
+      "Faqat eski qurilmalarda ishlaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 416,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "WPA2 da qaysi shifrlash algoritmi ishlatiladi?",
+    "options": [
+      "AES (Advanced Encryption Standard)",
+      "DES",
+      "RC4",
+      "MD5"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 417,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Simsiz tarmoqlarga bo'ladigan \"Evil Twin\" hujumi nima?",
+    "options": [
+      "Haqiqiy tarmoqqa o'xshash soxta nuqta yaratib, foydalanuvchilarni jalb qilish",
+      "Tarmoq kabelini uzish",
+      "Serverni o'chirish",
+      "Parolni o'zgartirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 418,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "SSID (Service Set Identifier) nima?",
+    "options": [
+      "Simsiz tarmoqning nomi",
+      "Shifrlash kaliti",
+      "IP manzil",
+      "MAC manzil"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 419,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "SSID yashirish (hiding) simsiz tarmoq xavfsizligini oshiradimi?",
+    "options": [
+      "To'liq himoya bermaydi, lekin tasodifiy ulanishlarni kamaytirishi mumkin",
+      "To'liq xavfsizlikni ta'minlaydi",
+      "Hech qanday foydasi yo'q",
+      "Tarmoq ishlamaydigan bo'lib qoladi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 420,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "MAC filtrlash simsiz tarmoqda qanday ishlaydi?",
+    "options": [
+      "Faqat ro'yxatga kiritilgan MAC manzilli qurilmalarga ulanishga ruxsat berish",
+      "Barcha qurilmalarga ruxsat berish",
+      "Tarmoq tezligini oshirish",
+      "Ma'lumotlarni shifrlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 421,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Simsiz tarmoqdagi \"War driving\" nima?",
+    "options": [
+      "Ochiq yoki zaif himoyalangan simsiz tarmoqlarni qidirish uchun atrofda haydab yurish",
+      "Kompyuter o'yini",
+      "Tarmoq o'rnatish usuli",
+      "Server sozlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 422,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "WPA3 protokolining WPA2 dan afzalliklari:",
+    "options": [
+      "Yanada kuchli shifrlash va ommaviy Wi-Fi tarmoqlarida individual shifrlash",
+      "WPA2 dan kamroq xavfsiz",
+      "Faqat eski qurilmalar uchun",
+      "Hech qanday farq yo'q"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 423,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bluetooth xavfsizlik muammolaridan biri:",
+    "options": [
+      "Bluejacking va Bluesnarfing kabi hujumlarga zaiflik",
+      "Juda kuchli xavfsizlik",
+      "Hech qanday muammo yo'q",
+      "Faqat kompyuterlarda ishlashi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 424,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Simsiz tarmoqda xavfsizlikni oshirish uchun eng muhim chora:",
+    "options": [
+      "Kuchli shifrlash (WPA2/WPA3) va murakkab parol ishlatish",
+      "Tarmoqni o'chirib qo'yish",
+      "Faqat bitta qurilma ulash",
+      "Hech narsa qilmaslik"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 425,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bulutli hisoblash (Cloud Computing) nima?",
+    "options": [
+      "Internet orqali hisoblash resurslarini (server, saqlash, dasturlar) taqdim etish",
+      "Faqat ma'lumotlarni saqlash",
+      "Faqat elektron pochta xizmati",
+      "Lokal kompyuterda ishlash"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 426,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bulutli hisoblash modellaridan biri - IaaS nima?",
+    "options": [
+      "Infratuzilma xizmati (Infrastructure as a Service)",
+      "Dastur xizmati",
+      "Platforma xizmati",
+      "Ma'lumot xizmati"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 427,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bulutli hisoblash modellaridan biri - PaaS nima?",
+    "options": [
+      "Platforma xizmati (Platform as a Service)",
+      "Infratuzilma xizmati",
+      "Dastur xizmati",
+      "Xavfsizlik xizmati"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 428,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bulutli hisoblash modellaridan biri - SaaS nima?",
+    "options": [
+      "Dastur xizmati (Software as a Service)",
+      "Infratuzilma xizmati",
+      "Platforma xizmati",
+      "Tarmoq xizmati"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 429,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bulutli hisoblashda asosiy xavfsizlik muammosi:",
+    "options": [
+      "Ma'lumotlar uchinchi tomon serverlarida saqlanishi va nazorat yo'qolishi",
+      "Juda tez ishlashi",
+      "Juda arzon bo'lishi",
+      "Hech qanday muammo yo'q"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 430,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "IoT (Internet of Things) nima?",
+    "options": [
+      "Jismoniy qurilmalarning internet orqali o'zaro bog'lanishi va ma'lumot almashishi",
+      "Faqat kompyuterlar tarmog'i",
+      "Faqat telefonlar tarmog'i",
+      "Faqat serverlar tarmog'i"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 431,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "IoT qurilmalarining xavfsizlik muammolari nimada?",
+    "options": [
+      "Kam resursli qurilmalar, zaif parollar, yangilanishlar yo'qligi",
+      "Juda kuchli xavfsizlik",
+      "Hech qanday muammo yo'q",
+      "Faqat fizik xavflar"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 432,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "IoT arxitekturasining asosiy qatlamlari:",
+    "options": [
+      "Idrok qatlami (sensorlar), tarmoq qatlami, ilova qatlami",
+      "Faqat bitta qatlam",
+      "Faqat tarmoq qatlami",
+      "Faqat ilova qatlami"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 433,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bulutli hisoblashda ma'lumotlar maxfiyligi (privacy) muammosi nimada?",
+    "options": [
+      "Shaxsiy ma'lumotlar provayderlar tomonidan ko'rilishi yoki sizib ketishi mumkin",
+      "Ma'lumotlar juda xavfsiz",
+      "Hech qanday muammo yo'q",
+      "Faqat fizik xavf"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 434,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "IoT qurilmalarida standart parollarni o'zgartirmaslik qanday xavf tug'diradi?",
+    "options": [
+      "Hujumchilar standart parollarni ishlatib qurilmaga osongina kira oladi",
+      "Hech qanday xavf yo'q",
+      "Qurilma tezroq ishlaydi",
+      "Parol o'zgartirish kerak emas"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 435,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Bulutli hisoblashda xavfsizlikni oshirish usullari:",
+    "options": [
+      "Ma'lumotlarni shifrlash, kuchli autentifikatsiya, doimiy monitoring",
+      "Hech narsa qilmaslik",
+      "Faqat parol ishlatish",
+      "Faqat antivirus o'rnatish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 436,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "IoT botnet nima?",
+    "options": [
+      "Viruslangan IoT qurilmalaridan tashkil topgan, hujumlar uchun ishlatiladigan tarmoq",
+      "Foydali IoT tarmog'i",
+      "IoT qurilmalar do'koni",
+      "IoT dasturlash tili"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 437,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "\"IoT\" tushunchasi birinchi marta nechanchi yilda taklif etilgan?",
+    "options": [
+      "1999-yil",
+      "1990-yil",
+      "2005-yil",
+      "2010-yil"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 438,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Zaxira nusxalash (backup) nima uchun zarur?",
+    "options": [
+      "Ma'lumotlar yo'qolgan yoki buzilgan holda ularni qayta tiklash imkonini beradi",
+      "Tarmoq tezligini oshirish uchun",
+      "Viruslarni aniqlash uchun",
+      "Kompyuter tezligini oshirish uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 439,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RAID texnologiyasi nima?",
+    "options": [
+      "Bir necha diskni birlashtirib ishonchlilik va tezlikni oshirish texnologiyasi",
+      "Virusga qarshi dastur",
+      "Shifrlash algoritmi",
+      "Tarmoq protokoli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 440,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RAID 1 qanday ishlaydi?",
+    "options": [
+      "Ma'lumotlarni ikki diskda bir xil nusxalaydi (mirroring)",
+      "Ma'lumotlarni bir diskda saqlaydi",
+      "Ma'lumotlarni siqadi",
+      "Ma'lumotlarni shifrlaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 441,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RAID 5 ning xususiyati:",
+    "options": [
+      "Ma'lumotlarni parchalab tarqatadi va paritet ma'lumoti orqali himoyalaydi",
+      "Faqat bitta diskda saqlaydi",
+      "Faqat ikkita diskda nusxalaydi",
+      "Ma'lumotlarni shifrlaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 442,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "To'liq zaxira nusxalash (full backup) nima?",
+    "options": [
+      "Barcha ma'lumotlarning to'liq nusxasini yaratish",
+      "Faqat o'zgargan fayllarni nusxalash",
+      "Faqat yangi fayllarni nusxalash",
+      "Ma'lumotlarni o'chirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 443,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Inkremental zaxira nusxalash nima?",
+    "options": [
+      "Faqat oxirgi zaxiradan keyin o'zgargan ma'lumotlarni nusxalash",
+      "Barcha ma'lumotlarni nusxalash",
+      "Faqat eski fayllarni nusxalash",
+      "Ma'lumotlarni o'chirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 444,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Differensial zaxira nusxalash nima?",
+    "options": [
+      "Oxirgi to'liq zaxiradan keyin o'zgargan barcha ma'lumotlarni nusxalash",
+      "Faqat oxirgi inkremental zaxiradan keyingi o'zgarishlar",
+      "Barcha ma'lumotlarni nusxalash",
+      "Ma'lumotlarni o'chirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 445,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ma'lumotlarni yo'qolish sabablariga nimalar kiradi?",
+    "options": [
+      "Apparat nosozligi, dasturiy xatolar, inson xatolari, tabiiy ofatlar",
+      "Faqat viruslar",
+      "Faqat hakerlar",
+      "Faqat elektr uzilishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 446,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ma'lumotlarni qayta tiklash (data recovery) nima?",
+    "options": [
+      "Yo'qolgan yoki buzilgan ma'lumotlarni maxsus vositalar yordamida tiklash",
+      "Ma'lumotlarni shifrlash",
+      "Ma'lumotlarni o'chirish",
+      "Ma'lumotlarni uzatish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 447,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Hodisalarni qaydlash (logging) nima uchun muhim?",
+    "options": [
+      "Tizimda sodir bo'lgan voqealarni kuzatish va xavfsizlik hodisalarini tahlil qilish uchun",
+      "Faqat tarmoq tezligini o'lchash uchun",
+      "Faqat diskda joy bo'shatish uchun",
+      "Faqat foydalanuvchilarni hisoblash uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 448,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Windows OT da hodisa (event) turlariga nimalar kiradi?",
+    "options": [
+      "Xato (Error), ogohlantirish (Warning), ma'lumot (Information), muvaffaqiyat auditi",
+      "Faqat xato",
+      "Faqat ogohlantirish",
+      "Faqat ma'lumot"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 449,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "RPO (Recovery Point Objective) nima?",
+    "options": [
+      "Ma'lumotlar yo'qolishining maqbul maksimal vaqt oralig'i",
+      "Tiklash uchun sarflanadigan vaqt",
+      "Tarmoq tezligi",
+      "Disk hajmi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 450,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Veb saytlardagi eng keng tarqalgan zaifliklardan biri:",
+    "options": [
+      "SQL inyeksiya",
+      "Tarmoq kabelining uzilishi",
+      "Kompyuter ekranining sinishi",
+      "Printerning ishdan chiqishi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 451,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "XSS (Cross-Site Scripting) hujumi nima?",
+    "options": [
+      "Veb sahifaga zararli skript kodini kiritish hujumi",
+      "Tarmoq kabelini uzish",
+      "Serverni fizik buzish",
+      "Parolni o'zgartirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 452,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "SQL inyeksiya hujumi nima?",
+    "options": [
+      "Ma'lumotlar bazasiga zararli SQL buyruqlarini kiritish hujumi",
+      "Tarmoq trafigini tinglash",
+      "Virusni tarqatish",
+      "Fizik buzish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 453,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kuki (cookie) nima?",
+    "options": [
+      "Veb sayt tomonidan brauzerda saqlanadigan kichik ma'lumot fayli",
+      "Virus turi",
+      "Shifrlash kaliti",
+      "Tarmoq protokoli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 454,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Xavfsiz dasturlash tillari (memory-safe) ga misol:",
+    "options": [
+      "Rust, Python, Java",
+      "C, Assembly",
+      "Faqat C++",
+      "Faqat Assembly"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 455,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "OWASP Top 10 nima?",
+    "options": [
+      "Eng keng tarqalgan veb ilova zaifliklarining ro'yxati",
+      "Eng yaxshi 10 ta dasturlash tili",
+      "Eng tez 10 ta kompyuter",
+      "Eng yaxshi 10 ta antivirus"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 456,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Brauzerda shaxsiy ma'lumotlarni himoyalash usullari:",
+    "options": [
+      "HTTPS ishlatish, kukilarni boshqarish, shaxsiy rejimda ko'rish",
+      "Hech narsa qilmaslik",
+      "Faqat bitta saytdan foydalanish",
+      "Internetni o'chirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 457,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Mobil operatsion tizimlar xavfsizligi muammolari:",
+    "options": [
+      "Ruxsatsiz ilovalar, zaif ruxsatlar, ma'lumot sizib ketishi",
+      "Hech qanday muammo yo'q",
+      "Faqat batareya muammosi",
+      "Faqat ekran muammosi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 458,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Linux OT ning xavfsizlik afzalligi:",
+    "options": [
+      "Ochiq kodli bo'lganligi uchun zaifliklar tezroq aniqlanadi va tuzatiladi",
+      "Viruslar ko'p tarqaladi",
+      "Hech qanday afzalligi yo'q",
+      "Faqat serverlar uchun"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 459,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Windows OT da foydalanuvchi hisobini nazorat qilish (UAC) nima?",
+    "options": [
+      "Dasturlar administrator huquqlari bilan ishlashdan oldin foydalanuvchidan ruxsat so'rash",
+      "Virusga qarshi dastur",
+      "Tarmoqlararo ekran",
+      "Shifrlash vositasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 460,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "CSRF (Cross-Site Request Forgery) hujumi nima?",
+    "options": [
+      "Foydalanuvchi nomidan ruxsatsiz so'rovlarni yuborish hujumi",
+      "Tarmoqni buzish",
+      "Virusni yaratish",
+      "Parolni o'chirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 461,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Dasturiy ta'minotni yangilash (patch management) nima uchun muhim?",
+    "options": [
+      "Aniqlangan zaifliklarni bartaraf etish va xavfsizlikni oshirish uchun",
+      "Faqat yangi funksiyalar qo'shish uchun",
+      "Faqat dastur ko'rinishini o'zgartirish uchun",
+      "Hech qanday ahamiyati yo'q"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 462,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Zararli dastur (malware) nima?",
+    "options": [
+      "Kompyuter tizimiga zarar yetkazish uchun yaratilgan dasturiy ta'minot",
+      "Foydali dastur",
+      "Operatsion tizim",
+      "Tarmoq protokoli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 463,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Kompyuter virusi nima?",
+    "options": [
+      "O'zini boshqa dasturlarga biriktiruvchi va tarqaluvchi zararli dastur",
+      "Foydali dastur",
+      "Operatsion tizim",
+      "Ma'lumotlar bazasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 464,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Troyan (trojan) dasturining xususiyati:",
+    "options": [
+      "Foydali dastur sifatida ko'rinib, aslida zararli funksiyalarni bajaradi",
+      "O'zini ko'paytiradi",
+      "Faqat tarmoq orqali tarqaladi",
+      "Foydali dastur"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 465,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Qurt (worm) virusdan qanday farq qiladi?",
+    "options": [
+      "Qurt mustaqil tarqaladi, virusga esa boshqa dastur kerak",
+      "Farq yo'q",
+      "Qurt zarar keltirmaydi",
+      "Virus mustaqil tarqaladi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 466,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ransomware (tovlamachilik dasturi) nima qiladi?",
+    "options": [
+      "Foydalanuvchi ma'lumotlarini shifrlaydi va ochish uchun to'lov talab qiladi",
+      "Ma'lumotlarni zaxiralaydi",
+      "Tizimni tezlashtiradi",
+      "Viruslarni aniqlaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 467,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Spyware (josuslik dasturi) nima qiladi?",
+    "options": [
+      "Foydalanuvchi faoliyatini yashirincha kuzatadi va ma'lumotlarni uzatadi",
+      "Tizimni himoyalaydi",
+      "Tarmoq tezligini oshiradi",
+      "Fayllarni siqadi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 468,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Rootkit nima?",
+    "options": [
+      "Tizimda yashirinib, administrator huquqlarini ega bo'lgan zararli dastur",
+      "Virusga qarshi dastur",
+      "Tarmoq protokoli",
+      "Ma'lumotlar bazasi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 469,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Keylogger nima qiladi?",
+    "options": [
+      "Klaviaturadan kiritilgan barcha tugmachalarni yashirincha qayd qiladi",
+      "Ekranni yoritadi",
+      "Tovushni yozadi",
+      "Tarmoqni himoyalaydi"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 470,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Viruslarni aniqlashning signatura (imzo) usuli qanday ishlaydi?",
+    "options": [
+      "Ma'lum viruslarning noyob kod namunalari bilan solishtirish orqali",
+      "Tasodifiy tekshirish",
+      "Faqat fayl nomini tekshirish",
+      "Faqat fayl hajmini tekshirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 471,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Viruslarni aniqlashning evristik usuli qanday ishlaydi?",
+    "options": [
+      "Dasturning shubhali xatti-harakatlarini tahlil qilish orqali",
+      "Faqat signatura bo'yicha",
+      "Faqat fayl nomini tekshirish",
+      "Faqat internetni tekshirish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 472,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Antivirus dasturining asosiy vazifasi:",
+    "options": [
+      "Zararli dasturlarni aniqlash, bloklash va yo'q qilish",
+      "Tarmoq tezligini oshirish",
+      "Ma'lumotlarni shifrlash",
+      "Fayllarni siqish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 473,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Adware nima?",
+    "options": [
+      "Foydalanuvchiga ruxsatsiz reklama ko'rsatadigan dastur",
+      "Virusga qarshi dastur",
+      "Foydali dastur",
+      "Operatsion tizim"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 474,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Polimorf virus nima?",
+    "options": [
+      "Har safar ko'payishda o'z kodini o'zgartirib, aniqlashni qiyinlashtiruvchi virus",
+      "Oddiy virus",
+      "Foydali dastur",
+      "Tarmoq protokoli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 475,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Ijtimoiy injineriya (social engineering) nima?",
+    "options": [
+      "Insonlar psixologiyasini ishlatib, maxfiy ma'lumotlarni olish usuli",
+      "Dasturlash usuli",
+      "Tarmoq sozlash usuli",
+      "Kompyuter ta'mirlash usuli"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 476,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Fishing (phishing) hujumi nima?",
+    "options": [
+      "Qalbaki xabarlar orqali foydalanuvchidan maxfiy ma'lumotlarni olishga urinish",
+      "Baliq ovlash",
+      "Tarmoq hujumi",
+      "Virus tarqatish"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 477,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Spear phishing oddiy phishingdan qanday farq qiladi?",
+    "options": [
+      "Aniq bir shaxs yoki tashkilotni nishonga olgan maqsadli hujum",
+      "Farq yo'q",
+      "Kamroq xavfli",
+      "Faqat telefon orqali"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 478,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Vishing nima?",
+    "options": [
+      "Telefon qo'ng'irog'i orqali amalga oshiriladigan fishing hujumi",
+      "Elektron pochta orqali hujum",
+      "SMS orqali hujum",
+      "Veb sayt orqali hujum"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": 479,
+    "subject": "Kiberxavfsizlik asoslari",
+    "question": "Smishing nima?",
+    "options": [
+      "SMS xabarlar orqali amalga oshiriladigan fishing hujumi",
+      "Telefon qo'ng'irog'i orqali hujum",
+      "Elektron pochta orqali hujum",
+      "Veb sayt orqali hujum"
+    ],
+    "answer_index": 0
+  }
+]
