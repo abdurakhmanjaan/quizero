@@ -305,6 +305,10 @@ def main_menu() -> InlineKeyboardMarkup:
 def admin_menu() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="➕ Fayldan fan qo'shish", callback_data="admin:add_subject")],
+        [InlineKeyboardButton(text="🗑 Fanni o'chirish", callback_data="admin:delete_subjects")],
+        [InlineKeyboardButton(text="✏️ Fan nomini o'zgartirish", callback_data="admin:rename_subjects")],
+        [InlineKeyboardButton(text="🏆 Userlar reytingi", callback_data="admin:ranking")],
+        [InlineKeyboardButton(text="👥 Umumiy statistika", callback_data="admin:global_stats")],
         [InlineKeyboardButton(text="📚 Fanlar ro'yxati", callback_data="admin:subjects")],
         [InlineKeyboardButton(text="⬅️ Asosiy menyu", callback_data="menu:home")],
     ])
@@ -314,6 +318,108 @@ def subjects_menu() -> InlineKeyboardMarkup:
     rows = [[InlineKeyboardButton(text=f"📘 {sub}", callback_data=f"subject:{sub}")] for sub in get_subjects()]
     rows.append([InlineKeyboardButton(text="⬅️ Orqaga", callback_data="menu:home")])
     return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def admin_subject_action_menu(action: str) -> InlineKeyboardMarkup:
+    rows = []
+    for sub in get_subjects():
+        rows.append([InlineKeyboardButton(text=f"📘 {sub}", callback_data=f"admin:{action}:{sub}")])
+    rows.append([InlineKeyboardButton(text="⬅️ Admin menyu", callback_data="admin:home")])
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def confirm_delete_subject_menu(subject: str) -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="✅ Ha, o'chirish", callback_data=f"admin:delete_confirm:{subject}")],
+        [InlineKeyboardButton(text="❌ Bekor qilish", callback_data="admin:home")]
+    ])
+
+
+def delete_subject_from_db(subject: str) -> int:
+    questions = load_questions()
+    before = len(questions)
+    questions = [q for q in questions if q.get("subject", "Sun'iy intellekt") != subject]
+    save_questions(questions)
+    return before - len(questions)
+
+
+def rename_subject_in_db(old_subject: str, new_subject: str) -> int:
+    questions = load_questions()
+    changed = 0
+    for q in questions:
+        if q.get("subject", "Sun'iy intellekt") == old_subject:
+            q["subject"] = new_subject
+            changed += 1
+    save_questions(questions)
+    return changed
+
+
+def format_ranking(limit: int = 20) -> str:
+    stats = load_stats()
+    if not stats:
+        return "🏆 Hali reyting ma'lumoti yo'q."
+
+    rows = []
+    for uid, rec in stats.items():
+        total_q = int(rec.get("total_questions", 0))
+        correct = int(rec.get("total_correct", 0))
+        total_tests = int(rec.get("total_tests", 0))
+        percent = round(correct / total_q * 100, 1) if total_q else 0
+        rows.append({
+            "user_id": uid,
+            "total_tests": total_tests,
+            "total_questions": total_q,
+            "correct": correct,
+            "percent": percent
+        })
+
+    rows.sort(key=lambda x: (x["percent"], x["correct"], x["total_tests"]), reverse=True)
+
+    medals = ["🥇", "🥈", "🥉"]
+    text = "🏆 Userlar reytingi\\n\\n"
+    for i, row in enumerate(rows[:limit], start=1):
+        medal = medals[i-1] if i <= 3 else f"{i}."
+        text += (
+            f"{medal} User ID: {row['user_id']}\\n"
+            f"   📈 {row['percent']}% | ✅ {row['correct']}/{row['total_questions']} | 📝 Test: {row['total_tests']}\\n"
+        )
+    return text
+
+
+def format_global_stats() -> str:
+    stats = load_stats()
+    questions = load_questions()
+
+    subjects = {}
+    for q in questions:
+        s = q.get("subject", "Noma'lum")
+        subjects[s] = subjects.get(s, 0) + 1
+
+    total_users = len(stats)
+    active_users = sum(1 for rec in stats.values() if int(rec.get("total_questions", 0)) > 0)
+    total_tests = sum(int(rec.get("total_tests", 0)) for rec in stats.values())
+    total_answered = sum(int(rec.get("total_questions", 0)) for rec in stats.values())
+    total_correct = sum(int(rec.get("total_correct", 0)) for rec in stats.values())
+    percent = round(total_correct / total_answered * 100, 1) if total_answered else 0
+
+    text = (
+        "👥 Umumiy statistika\\n\\n"
+        f"👤 Jami userlar: {total_users}\\n"
+        f"🔥 Test ishlagan userlar: {active_users}\\n"
+        f"📝 Jami testlar: {total_tests}\\n"
+        f"📌 Jami javob berilgan savollar: {total_answered}\\n"
+        f"✅ Jami to'g'ri javoblar: {total_correct}\\n"
+        f"📈 Umumiy foiz: {percent}%\\n\\n"
+        f"📚 Fanlar soni: {len(subjects)}\\n"
+        f"🧾 Bazadagi savollar: {len(questions)}\\n\\n"
+        "📚 Fanlar bo'yicha savollar:\\n"
+    )
+    if subjects:
+        for sub, count in sorted(subjects.items()):
+            text += f"• {sub}: {count} ta\\n"
+    else:
+        text += "Fanlar yo'q.\\n"
+    return text
 
 
 def settings_menu(subject: str) -> InlineKeyboardMarkup:
@@ -467,6 +573,99 @@ async def cb_admin_subjects(call: CallbackQuery):
     await call.answer()
 
 
+
+@dp.callback_query(F.data == "admin:home")
+async def cb_admin_home(call: CallbackQuery):
+    if call.from_user.id not in ADMIN_IDS:
+        await call.answer("Admin emas.", show_alert=True)
+        return
+    await call.message.edit_text("Admin menyu:", reply_markup=admin_menu())
+    await call.answer()
+
+
+@dp.callback_query(F.data == "admin:delete_subjects")
+async def cb_admin_delete_subjects(call: CallbackQuery):
+    if call.from_user.id not in ADMIN_IDS:
+        await call.answer("Admin emas.", show_alert=True)
+        return
+    await call.message.edit_text("Qaysi fanni o'chirmoqchisiz?", reply_markup=admin_subject_action_menu("delete_select"))
+    await call.answer()
+
+
+@dp.callback_query(F.data.startswith("admin:delete_select:"))
+async def cb_admin_delete_select(call: CallbackQuery):
+    if call.from_user.id not in ADMIN_IDS:
+        await call.answer("Admin emas.", show_alert=True)
+        return
+    subject = call.data.split(":", 2)[2]
+    count = sum(1 for q in load_questions() if q.get("subject", "Sun'iy intellekt") == subject)
+    await call.message.edit_text(
+        f"⚠️ Diqqat!\\n\\n"
+        f"Fan: {subject}\\n"
+        f"Savollar soni: {count} ta\\n\\n"
+        f"Haqiqatan ham shu fanni bazadan butunlay o'chirasizmi?",
+        reply_markup=confirm_delete_subject_menu(subject)
+    )
+    await call.answer()
+
+
+@dp.callback_query(F.data.startswith("admin:delete_confirm:"))
+async def cb_admin_delete_confirm(call: CallbackQuery):
+    if call.from_user.id not in ADMIN_IDS:
+        await call.answer("Admin emas.", show_alert=True)
+        return
+    subject = call.data.split(":", 2)[2]
+    deleted = delete_subject_from_db(subject)
+    await call.message.edit_text(
+        f"✅ Fan o'chirildi.\\n\\n"
+        f"Fan: {subject}\\n"
+        f"O'chirilgan savollar: {deleted} ta",
+        reply_markup=admin_menu()
+    )
+    await call.answer()
+
+
+@dp.callback_query(F.data == "admin:rename_subjects")
+async def cb_admin_rename_subjects(call: CallbackQuery):
+    if call.from_user.id not in ADMIN_IDS:
+        await call.answer("Admin emas.", show_alert=True)
+        return
+    await call.message.edit_text("Qaysi fan nomini o'zgartirmoqchisiz?", reply_markup=admin_subject_action_menu("rename_select"))
+    await call.answer()
+
+
+@dp.callback_query(F.data.startswith("admin:rename_select:"))
+async def cb_admin_rename_select(call: CallbackQuery):
+    if call.from_user.id not in ADMIN_IDS:
+        await call.answer("Admin emas.", show_alert=True)
+        return
+    subject = call.data.split(":", 2)[2]
+    ADMIN_UPLOAD[call.from_user.id] = {"step": "rename_subject", "old_subject": subject}
+    await call.message.answer(
+        f"Eski fan nomi: {subject}\\n\\n"
+        "Yangi fan nomini yozing:"
+    )
+    await call.answer()
+
+
+@dp.callback_query(F.data == "admin:ranking")
+async def cb_admin_ranking(call: CallbackQuery):
+    if call.from_user.id not in ADMIN_IDS:
+        await call.answer("Admin emas.", show_alert=True)
+        return
+    await call.message.answer(format_ranking(), reply_markup=admin_menu())
+    await call.answer()
+
+
+@dp.callback_query(F.data == "admin:global_stats")
+async def cb_admin_global_stats(call: CallbackQuery):
+    if call.from_user.id not in ADMIN_IDS:
+        await call.answer("Admin emas.", show_alert=True)
+        return
+    await call.message.answer(format_global_stats(), reply_markup=admin_menu())
+    await call.answer()
+
+
 @dp.message(F.document)
 async def upload_file(message: Message):
     if message.from_user.id not in ADMIN_IDS:
@@ -559,6 +758,23 @@ async def text_handler(message: Message):
             state["step"] = "file"
             await message.answer(
                 f"Fan nomi: {subject}\n\nEndi test faylini yuboring: .txt, .docx yoki .pdf"
+            )
+            return
+
+        if state and state.get("step") == "rename_subject":
+            new_subject = message.text.strip()
+            if len(new_subject) < 2:
+                await message.answer("Yangi fan nomi juda qisqa. Qayta yozing.")
+                return
+            old_subject = state["old_subject"]
+            changed = rename_subject_in_db(old_subject, new_subject)
+            ADMIN_UPLOAD.pop(message.from_user.id, None)
+            await message.answer(
+                f"✅ Fan nomi o'zgartirildi.\n\n"
+                f"Eski nom: {old_subject}\n"
+                f"Yangi nom: {new_subject}\n"
+                f"O'zgargan savollar: {changed} ta",
+                reply_markup=admin_menu()
             )
             return
 
