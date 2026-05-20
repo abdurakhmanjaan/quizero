@@ -70,6 +70,27 @@ def save_stats(stats: Dict[str, Any]) -> None:
     STATS_FILE.write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def remember_user(user) -> None:
+    if not user:
+        return
+
+    stats = load_stats()
+    uid = str(user.id)
+
+    rec = stats.setdefault(uid, {
+        "total_tests": 0,
+        "total_questions": 0,
+        "total_correct": 0,
+        "wrong_ids": []
+    })
+
+    full_name = " ".join([x for x in [user.first_name, user.last_name] if x]).strip()
+    rec["name"] = full_name or f"User {uid}"
+    rec["username"] = user.username or ""
+
+    save_stats(stats)
+
+
 def clean_text(s: str) -> str:
     s = s.replace("\ufeff", "")
     s = re.sub(r"\r\n?", "\n", s)
@@ -305,6 +326,10 @@ def main_menu() -> InlineKeyboardMarkup:
 def admin_menu() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text="➕ Fayldan fan qo'shish", callback_data="admin:add_subject")],
+        [InlineKeyboardButton(text="🔍 Savol qidirish", callback_data="admin:search_question")],
+        [InlineKeyboardButton(text="✏️ Savolni ID orqali tahrirlash", callback_data="admin:edit_question_start")],
+        [InlineKeyboardButton(text="📥 Backup olish", callback_data="admin:backup")],
+        [InlineKeyboardButton(text="📢 Xabar yuborish", callback_data="admin:broadcast_menu")],
         [InlineKeyboardButton(text="🗑 Fanni o'chirish", callback_data="admin:delete_subjects")],
         [InlineKeyboardButton(text="✏️ Fan nomini o'zgartirish", callback_data="admin:rename_subjects")],
         [InlineKeyboardButton(text="🏆 Userlar reytingi", callback_data="admin:ranking")],
@@ -433,6 +458,183 @@ def format_global_stats() -> str:
     else:
         text += "Fanlar yo'q.\n"
     return text.strip()
+
+
+def get_question_by_id(qid: int):
+    for q in load_questions():
+        if int(q.get("id", -1)) == qid:
+            return q
+    return None
+
+
+def format_question_for_admin(q: Dict[str, Any]) -> str:
+    letters = "ABCDEFGHIJ"
+    options = q.get("options", [])
+    ans = int(q.get("answer_index", 0))
+    text = (
+        f"🆔 ID: {q.get('id')}\n"
+        f"📚 Fan: {q.get('subject', 'Nomaʼlum')}\n\n"
+        f"❓ Savol:\n{q.get('question', '')}\n\n"
+        "Variantlar:\n"
+    )
+    for i, opt in enumerate(options):
+        mark = " ✅" if i == ans else ""
+        letter = letters[i] if i < len(letters) else str(i + 1)
+        text += f"{letter}) {opt}{mark}\n"
+    if options and 0 <= ans < len(options):
+        text += f"\n✅ To'g'ri javob: {letters[ans] if ans < len(letters) else ans + 1}"
+    else:
+        text += "\n⚠️ To'g'ri javob noto'g'ri ko'rsatilgan"
+    return text
+
+
+def question_edit_menu(qid: int) -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="✏️ Savol matnini o'zgartirish", callback_data=f"admin:qedit_text:{qid}")],
+        [InlineKeyboardButton(text="🔤 Variantlarni o'zgartirish", callback_data=f"admin:qedit_options:{qid}")],
+        [InlineKeyboardButton(text="✅ To'g'ri javobni o'zgartirish", callback_data=f"admin:qedit_answer:{qid}")],
+        [InlineKeyboardButton(text="🗑 Savolni o'chirish", callback_data=f"admin:qdelete_ask:{qid}")],
+        [InlineKeyboardButton(text="⬅️ Admin menyu", callback_data="admin:home")]
+    ])
+
+
+def answer_select_menu(qid: int, options_count: int) -> InlineKeyboardMarkup:
+    letters = "ABCDEFGHIJ"
+    rows = []
+    for i in range(options_count):
+        letter = letters[i] if i < len(letters) else str(i + 1)
+        rows.append([InlineKeyboardButton(text=f"{letter}) {i+1}-variant", callback_data=f"admin:qset_answer:{qid}:{i}")])
+    rows.append([InlineKeyboardButton(text="⬅️ Orqaga", callback_data=f"admin:qshow:{qid}")])
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def confirm_delete_question_menu(qid: int) -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="✅ Ha, savolni o'chirish", callback_data=f"admin:qdelete_confirm:{qid}")],
+        [InlineKeyboardButton(text="❌ Bekor qilish", callback_data=f"admin:qshow:{qid}")]
+    ])
+
+
+def update_question_text(qid: int, new_text: str) -> bool:
+    questions = load_questions()
+    for q in questions:
+        if int(q.get("id", -1)) == qid:
+            q["question"] = new_text
+            save_questions(questions)
+            return True
+    return False
+
+
+def update_question_options(qid: int, options: List[str]) -> bool:
+    questions = load_questions()
+    for q in questions:
+        if int(q.get("id", -1)) == qid:
+            old_answer = int(q.get("answer_index", 0))
+            q["options"] = options
+            q["answer_index"] = min(old_answer, len(options) - 1)
+            save_questions(questions)
+            return True
+    return False
+
+
+def update_question_answer(qid: int, answer_index: int) -> bool:
+    questions = load_questions()
+    for q in questions:
+        if int(q.get("id", -1)) == qid:
+            if 0 <= answer_index < len(q.get("options", [])):
+                q["answer_index"] = answer_index
+                save_questions(questions)
+                return True
+    return False
+
+
+def delete_question_by_id(qid: int) -> bool:
+    questions = load_questions()
+    before = len(questions)
+    questions = [q for q in questions if int(q.get("id", -1)) != qid]
+    if len(questions) != before:
+        save_questions(questions)
+        return True
+    return False
+
+
+def search_questions(keyword: str, limit: int = 10) -> List[Dict[str, Any]]:
+    keyword = keyword.lower().strip()
+    if not keyword:
+        return []
+    result = []
+    for q in load_questions():
+        text = " ".join([
+            str(q.get("question", "")),
+            str(q.get("subject", "")),
+            " ".join(q.get("options", []))
+        ]).lower()
+        if keyword in text:
+            result.append(q)
+            if len(result) >= limit:
+                break
+    return result
+
+
+def search_results_menu(results: List[Dict[str, Any]]) -> InlineKeyboardMarkup:
+    rows = []
+    for q in results:
+        question = q.get("question", "")
+        title = question[:45] + ("..." if len(question) > 45 else "")
+        rows.append([InlineKeyboardButton(text=f"ID {q.get('id')}: {title}", callback_data=f"admin:qshow:{q.get('id')}")])
+    rows.append([InlineKeyboardButton(text="⬅️ Admin menyu", callback_data="admin:home")])
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+
+def broadcast_menu() -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="📢 Hamma userlarga", callback_data="admin:broadcast_all")],
+        [InlineKeyboardButton(text="🔥 Aktiv userlarga", callback_data="admin:broadcast_active")],
+        [InlineKeyboardButton(text="👤 Bitta user ID ga", callback_data="admin:broadcast_one")],
+        [InlineKeyboardButton(text="⬅️ Admin menyu", callback_data="admin:home")]
+    ])
+
+
+def broadcast_confirm_menu() -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="✅ Yuborish", callback_data="admin:broadcast_confirm")],
+        [InlineKeyboardButton(text="❌ Bekor qilish", callback_data="admin:broadcast_cancel")]
+    ])
+
+
+def get_broadcast_targets(mode: str, target_user_id: str = "") -> List[int]:
+    stats = load_stats()
+    targets = []
+
+    if mode == "all":
+        for uid in stats.keys():
+            if str(uid).isdigit():
+                targets.append(int(uid))
+
+    elif mode == "active":
+        for uid, rec in stats.items():
+            if str(uid).isdigit() and int(rec.get("total_questions", 0)) > 0:
+                targets.append(int(uid))
+
+    elif mode == "one":
+        if str(target_user_id).isdigit():
+            targets.append(int(target_user_id))
+
+    # adminlarga alohida yuborish funksiyasi yo'q; lekin admin user sifatida statistikada bo'lsa, all/active ichida chiqishi mumkin.
+    # Dublikatlarni olib tashlaymiz
+    return sorted(set(targets))
+
+
+def broadcast_mode_title(mode: str) -> str:
+    if mode == "all":
+        return "📢 Hamma userlar"
+    if mode == "active":
+        return "🔥 Aktiv userlar"
+    if mode == "one":
+        return "👤 Bitta user"
+    return "📢 Xabar"
+
 
 def settings_menu(subject: str) -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=[
@@ -762,6 +964,7 @@ async def cmd_stop(message: Message):
 async def text_handler(message: Message):
     if message.from_user.id in ADMIN_IDS:
         state = ADMIN_UPLOAD.get(message.from_user.id)
+
         if state and state.get("step") == "subject":
             subject = message.text.strip()
             if len(subject) < 2:
@@ -789,6 +992,108 @@ async def text_handler(message: Message):
                 f"O'zgargan savollar: {changed} ta",
                 reply_markup=admin_menu()
             )
+            return
+
+        if state and state.get("step") == "search_question":
+            keyword = message.text.strip()
+            results = search_questions(keyword)
+            ADMIN_UPLOAD.pop(message.from_user.id, None)
+            if not results:
+                await message.answer("Hech narsa topilmadi.", reply_markup=admin_menu())
+                return
+            await message.answer(
+                f"🔍 Topildi: {len(results)} ta natija.\nKerakli savolni tanlang:",
+                reply_markup=search_results_menu(results)
+            )
+            return
+
+        if state and state.get("step") == "edit_question_id":
+            text = message.text.strip()
+            if not text.isdigit():
+                await message.answer("Faqat ID raqam yuboring. Masalan: 25")
+                return
+            qid = int(text)
+            q = get_question_by_id(qid)
+            ADMIN_UPLOAD.pop(message.from_user.id, None)
+            if not q:
+                await message.answer("Bunday ID topilmadi.", reply_markup=admin_menu())
+                return
+            await message.answer(format_question_for_admin(q), reply_markup=question_edit_menu(qid))
+            return
+
+        if state and state.get("step") == "edit_question_text":
+            qid = int(state["qid"])
+            new_text = message.text.strip()
+            if len(new_text) < 3:
+                await message.answer("Savol matni juda qisqa. Qayta yuboring.")
+                return
+            ok = update_question_text(qid, new_text)
+            ADMIN_UPLOAD.pop(message.from_user.id, None)
+            q = get_question_by_id(qid)
+            if ok and q:
+                await message.answer("✅ Savol matni yangilandi.\n\n" + format_question_for_admin(q), reply_markup=question_edit_menu(qid))
+            else:
+                await message.answer("Savol topilmadi.", reply_markup=admin_menu())
+            return
+
+        if state and state.get("step") == "edit_question_options":
+            qid = int(state["qid"])
+            lines = [x.strip() for x in message.text.splitlines() if x.strip()]
+            options = []
+            for line in lines:
+                line = re.sub(r"^[A-Ja-j][\)\.\:\-]\s*", "", line).strip()
+                if line:
+                    options.append(line[:100])
+            if len(options) < 2:
+                await message.answer("Kamida 2 ta variant yuboring.")
+                return
+            if len(options) > 10:
+                options = options[:10]
+            ok = update_question_options(qid, options)
+            ADMIN_UPLOAD.pop(message.from_user.id, None)
+            q = get_question_by_id(qid)
+            if ok and q:
+                await message.answer("✅ Variantlar yangilandi.\n\n" + format_question_for_admin(q), reply_markup=question_edit_menu(qid))
+            else:
+                await message.answer("Savol topilmadi.", reply_markup=admin_menu())
+            return
+
+
+        if state and state.get("step") == "broadcast_one_id":
+            target_id = message.text.strip()
+            if not target_id.isdigit():
+                await message.answer("User ID faqat raqam bo'lishi kerak. Qayta yuboring.")
+                return
+            state["target_user_id"] = target_id
+            state["mode"] = "one"
+            state["step"] = "broadcast_text"
+            await message.answer(
+                f"👤 User ID: {target_id}\n\n"
+                "Endi yuboriladigan xabar matnini yozing:"
+            )
+            return
+
+        if state and state.get("step") == "broadcast_text":
+            text = message.text.strip()
+            if len(text) < 2:
+                await message.answer("Xabar juda qisqa. Qayta yozing.")
+                return
+
+            state["text"] = text
+            state["step"] = "broadcast_confirm"
+
+            mode = state.get("mode")
+            target_user_id = state.get("target_user_id", "")
+            targets = get_broadcast_targets(mode, target_user_id)
+
+            preview = (
+                f"📢 Xabar preview\n\n"
+                f"📌 Rejim: {broadcast_mode_title(mode)}\n"
+                f"👥 Qabul qiluvchilar: {len(targets)} ta\n\n"
+                f"Xabar:\n{text}\n\n"
+                "Yuborishni tasdiqlaysizmi?"
+            )
+            await message.answer(preview, reply_markup=broadcast_confirm_menu())
             return
 
 
